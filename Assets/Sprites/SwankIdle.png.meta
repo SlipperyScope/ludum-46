@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 11d458312663cba48b79bdc5e86426e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3623855271863191962
+    second: SwankIdle_0
+  - first:
+      213: -7751734217148636466
+    second: SwankIdle_1
+  - first:
+      213: -1769473008855294601
+    second: SwankIdle_2
+  - first:
+      213: -8712787391976057781
+    second: SwankIdle_3
+  - first:
+      213: -6296696339123473902
+    second: SwankIdle_4
+  - first:
+      213: 8204104899845816054
+    second: SwankIdle_5
+  - first:
+      213: 7493041096835015646
+    second: SwankIdle_6
+  - first:
+      213: 7702076220577565470
+    second: SwankIdle_7
+  - first:
+      213: 2008854149583138560
+    second: SwankIdle_8
+  - first:
+      213: 8199949814358007626
+    second: SwankIdle_9
+  - first:
+      213: -3767444804884180251
+    second: SwankIdle_10
+  - first:
+      213: 7525767892608038369
+    second: SwankIdle_11
+  - first:
+      213: 4768195823952589611
+    second: SwankIdle_12
+  - first:
+      213: -5295541183232261817
+    second: SwankIdle_13
+  - first:
+      213: 6862751066667867302
+    second: SwankIdle_14
+  - first:
+      213: -4821337590884703317
+    second: SwankIdle_15
+  - first:
+      213: 6593407382912767888
+    second: SwankIdle_16
+  - first:
+      213: -1943930446953641939
+    second: SwankIdle_17
+  - first:
+      213: 2904234680876236541
+    second: SwankIdle_18
+  - first:
+      213: 2991240025821710960
+    second: SwankIdle_19
+  - first:
+      213: 816704673074880025
+    second: SwankIdle_20
+  - first:
+      213: -1476389513230489591
+    second: SwankIdle_21
+  - first:
+      213: -1327205206576267710
+    second: SwankIdle_22
+  - first:
+      213: -1436015613645329686
+    second: SwankIdle_23
+  - first:
+      213: -7231926896246936743
+    second: SwankIdle_24
+  - first:
+      213: 4530633866972690237
+    second: SwankIdle_25
+  - first:
+      213: 750935098186952881
+    second: SwankIdle_26
+  - first:
+      213: -5735942158879819478
+    second: SwankIdle_27
+  - first:
+      213: -7770694038854518542
+    second: SwankIdle_28
+  - first:
+      213: 3127288053628133999
+    second: SwankIdle_29
+  - first:
+      213: 7191581774854840054
+    second: SwankIdle_30
+  - first:
+      213: -7208805721301587493
+    second: SwankIdle_31
+  - first:
+      213: 2452152673147437801
+    second: SwankIdle_32
+  - first:
+      213: 2626145196846009253
+    second: SwankIdle_33
+  - first:
+      213: -6351341449438812028
+    second: SwankIdle_34
+  - first:
+      213: -7270356909732271890
+    second: SwankIdle_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwankIdle_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2092
+        width: 252
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9905d47b258a4230800000000000000
+      internalID: 3623855271863191962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 2092
+        width: 253
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec26d99ccce4c6490800000000000000
+      internalID: -7751734217148636466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_2
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 2091
+        width: 253
+        height: 395
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dd98b6ca19177e0800000000000000
+      internalID: -1769473008855294601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_3
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 2091
+        width: 252
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44d3c18706f51780800000000000000
+      internalID: -8712787391976057781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_4
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2091
+        width: 252
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212fa087a04ad98a0800000000000000
+      internalID: -6296696339123473902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_5
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 2091
+        width: 253
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fef95f60f5dad170800000000000000
+      internalID: 8204104899845816054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1675
+        width: 252
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed321408d21acf760800000000000000
+      internalID: 7493041096835015646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1675
+        width: 252
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b4288e38543ea60800000000000000
+      internalID: 7702076220577565470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_8
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1675
+        width: 252
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fe877a432e0eb10800000000000000
+      internalID: 2008854149583138560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_9
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 1675
+        width: 253
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fd6d439e21cc170800000000000000
+      internalID: 8199949814358007626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_10
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1674
+        width: 253
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2dcf529e857bbc0800000000000000
+      internalID: -3767444804884180251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_11
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1674
+        width: 253
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e531fc6606e07860800000000000000
+      internalID: 7525767892608038369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1260
+        width: 252
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23f132c6d80c2240800000000000000
+      internalID: 4768195823952589611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_13
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1260
+        width: 252
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7414dffc9557286b0800000000000000
+      internalID: -5295541183232261817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1258
+        width: 252
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acdba61cb36d3f50800000000000000
+      internalID: 6862751066667867302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_15
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1258
+        width: 252
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba36411710b271db0800000000000000
+      internalID: -4821337590884703317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_16
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1258
+        width: 251
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09714f5d41d708b50800000000000000
+      internalID: 6593407382912767888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_17
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 1262
+        width: 252
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d280341de85c505e0800000000000000
+      internalID: -1943930446953641939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 847
+        width: 253
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe7ff11e0aed4820800000000000000
+      internalID: 2904234680876236541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 848
+        width: 253
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a880984f4038920800000000000000
+      internalID: 2991240025821710960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_20
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 848
+        width: 252
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e9705b294855b00800000000000000
+      internalID: 816704673074880025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_21
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 848
+        width: 252
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908e8c95f8fc28be0800000000000000
+      internalID: -1476389513230489591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_22
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 848
+        width: 253
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ef8fd75e1d49de0800000000000000
+      internalID: -1327205206576267710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_23
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 851
+        width: 253
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea61c0686f321ce0800000000000000
+      internalID: -1436015613645329686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 436
+        width: 253
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bab93edc803ab90800000000000000
+      internalID: -7231926896246936743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_25
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 436
+        width: 253
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37f2486f7b00ee30800000000000000
+      internalID: 4530633866972690237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_26
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 432
+        width: 252
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b07ec04e7bdb6a00800000000000000
+      internalID: 750935098186952881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_27
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 432
+        width: 252
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29f7cf2ff6d560b0800000000000000
+      internalID: -5735942158879819478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_28
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 435
+        width: 253
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8b4db41f2f82490800000000000000
+      internalID: -7770694038854518542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_29
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 435
+        width: 253
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62e3da6aeb566b20800000000000000
+      internalID: 3127288053628133999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_30
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 20
+        width: 253
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe55678581adc360800000000000000
+      internalID: 7191581774854840054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_31
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 15
+        width: 252
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9e30fe36d25fb90800000000000000
+      internalID: -7208805721301587493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_32
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 15
+        width: 252
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e24af93ddbc70220800000000000000
+      internalID: 2452152673147437801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_33
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 18
+        width: 253
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abca928421f17420800000000000000
+      internalID: 2626145196846009253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_34
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 18
+        width: 254
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4882cf24a908bd7a0800000000000000
+      internalID: -6351341449438812028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankIdle_35
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 17
+        width: 252
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8e91d19e08a1b90800000000000000
+      internalID: -7270356909732271890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
