@@ -35,6 +35,7 @@ public class HeroMovement : MonoBehaviour
             upAxis = Input.GetAxis("Vertical") * .75f;
             UpdateMove();
         }
+        // sadSprite.sortingOrder = (int)((gameObject.transform.position.y - sadSprite.bounds.extents.y) * -100);
     }
 
     void UpdateMove()
