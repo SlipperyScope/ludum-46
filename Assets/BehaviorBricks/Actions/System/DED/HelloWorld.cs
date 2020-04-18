@@ -16,6 +16,12 @@ namespace BBUnity.Actions
 
         public override TaskStatus OnUpdate()
         {
+            if (Message is null)
+            {
+                Debug.LogError($"{nameof(Message)} is null");
+                return TaskStatus.FAILED;
+            }
+
             Debug.Log(Message);
             return TaskStatus.COMPLETED;
         }

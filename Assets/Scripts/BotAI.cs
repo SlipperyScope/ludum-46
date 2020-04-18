@@ -11,8 +11,10 @@ namespace BBUnity
         [Tooltip("Behavior to use")]
         public BehaviorExecutor Behavior;
         protected UnityBlackboard Blackboard;
+        public GameArea GameArea;
 
-        void Start()
+
+        void Awake()
         {
             if (Behavior is null)
             {
@@ -20,8 +22,12 @@ namespace BBUnity
             }
 
             Blackboard = Behavior.blackboard;
+            Blackboard.SetBehaviorParam("Area", GameArea.PlayArea);
 
             Debug.Log($"BT: {Behavior} BB: {Blackboard}");
         }
-    } 
+        private void Start()
+        {
+        }
+    }
 }
