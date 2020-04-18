@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HeroMovement : MonoBehaviour
 {
+    public SpriteRenderer sadSprite;
     public float moveSpeed = 2;
     public float thrust = .5f;
     public bool canMove;
@@ -11,6 +12,7 @@ public class HeroMovement : MonoBehaviour
     private float upAxis;
     private float changeSpeed;
     private Vector2 velocity;
+
 
     protected void Awake()
     {
@@ -20,6 +22,7 @@ public class HeroMovement : MonoBehaviour
 
     void Start()
     {
+        sadSprite = gameObject.GetComponentInChildren<SpriteRenderer>();
         canMove = true;
     }
 
@@ -43,6 +46,11 @@ public class HeroMovement : MonoBehaviour
         if (axisDirection == Vector2.zero)
         {
             desiredVelocity = Vector2.zero;
+        }
+
+        if (Mathf.Abs(rightAxis) > 0)
+        {
+            sadSprite.flipX = rightAxis < 0;
         }
 
         float velociyBoost = 2f - Vector2.Dot(currentVelocity.normalized, desiredVelocity.normalized);
