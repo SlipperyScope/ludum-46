@@ -6,8 +6,8 @@ public class Bot : MonoBehaviour
 {
     public float speed = 1f;
     public int badGuyLevel = 1;
-    private int pointValue = 100;
-    private bool alive = true;
+    //private int pointValue = 100;
+    //private bool alive = true;
 
     void Awake()
     {
