@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5020175174638884605}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.59, y: -4.15, z: 0}
-  m_LocalScale: {x: 0.32, y: 0.84, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78,10 +78,10 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.04, y: 0.04}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &5020175174638884600
@@ -102,7 +102,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    newSize: {x: 0.04, y: 0.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -119,7 +119,7 @@ Rigidbody2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5020175174638884605}
   m_BodyType: 0
-  m_Simulated: 1
+  m_Simulated: 0
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -145,6 +145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   botLevel: 1
-  firstLevelSprite: {fileID: 21300000, guid: aeaf975604e2d584a9b35689ccef61d6, type: 3}
-  secondLevelSprite: {fileID: 21300000, guid: b57d377b580f59541825695db1b37fda, type: 3}
-  thirdLevelSprite: {fileID: 21300000, guid: 7f03ecc91b6c13e4a824433b532cea8b, type: 3}
+  anchoirPoint: {x: 0, y: 0, z: 0}
+  killDistance: 0
+  firstLevelSprite: {fileID: 21300000, guid: e6ef72571671d184690069fa4cee0901, type: 3}
+  secondLevelSprite: {fileID: 21300000, guid: fb86e03814d2e7142bd3a7299509e9e9, type: 3}
+  thirdLevelSprite: {fileID: 21300000, guid: 33c836a5d8ce9c44f9dcf9561c6fd41c, type: 3}

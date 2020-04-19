@@ -6,40 +6,42 @@ public class Bot : MonoBehaviour
 {
     public float speed = 1f;
     public int botLevel = 1;
+
     // private int pointValue = 100;
     // private bool alive = true;
     private SpriteRenderer spriteR;
+    public Vector3 anchoirPoint;
+    public float killDistance;
 
     public Sprite firstLevelSprite;
     public Sprite secondLevelSprite;
     public Sprite thirdLevelSprite;
 
+    private Vector3 moveDirection;
+
+
     void Awake()
     {
         spriteR = gameObject.GetComponent<SpriteRenderer>();
-        this.ChangeScale(botLevel);
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         this.SetBotSprite(botLevel);
+        moveDirection = (anchoirPoint - transform.position).normalized;
+        if (moveDirection.x < 0) spriteR.flipX = true; 
     }
 
-    // Update is called once per frame
     void Update()
     {
-        this.MoveBotForward(speed, botLevel);
+        this.MoveBot();
+        this.ControlBotDeath();
     }
 
-    private void ChangeScale(int scaler)
+    private void MoveBot()
     {
-        transform.localScale = new Vector2(scaler * .5f, scaler);
-    }
-
-    private void MoveBotForward(float speed, int speedScaler)
-    {
-        transform.position += transform.up * (speed * speedScaler) * Time.deltaTime;
+        float step = speed * botLevel * Time.deltaTime;
+        transform.position += moveDirection * step;
     }
 
     private void SetBotSprite(int botLevel)
@@ -61,4 +63,13 @@ public class Bot : MonoBehaviour
         }
     }
 
+    private void ControlBotDeath()
+    {
+        if(Vector3.Distance(Vector3.zero,transform.position) > killDistance)
+        {
+            Destroy(gameObject);
+        }
+
+        // TODO: Handle collision with swank
+    }
 }
