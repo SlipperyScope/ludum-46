@@ -30,7 +30,7 @@ namespace BBCore.Conditions
         /// </summary>
         public override bool Check()
         {
-            Debug.Log("Checking...");
+            //Debug.Log("Checking...");
 
             var DeltaLocation = Destination - (Vector2)Entity.transform.position;
 
@@ -39,7 +39,14 @@ namespace BBCore.Conditions
 
             var Ellipse = new Ellipse(XThreshold * 2f, YThreshold * 2f * YRatio);
 
-            Debug.Log("> " + Ellipse.Contains(DeltaLocation));
+            //Debug.Log("> " + Ellipse.Contains(DeltaLocation));
+
+            var Inside = Ellipse.Contains(DeltaLocation);
+
+            if (Inside == true)
+            {
+                Entity.GetComponent<SwankMovementComponent>().StopMoving();
+            }
 
             return Ellipse.Contains(DeltaLocation);
         }
