@@ -1,0 +1,1004 @@
+fileFormatVersion: 2
+guid: eb703a99a3457d344a2bfd739ff652db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6225613910692716465
+    second: SwankWalk_0
+  - first:
+      213: 5812917765393694360
+    second: SwankWalk_1
+  - first:
+      213: -1014084461980074437
+    second: SwankWalk_2
+  - first:
+      213: -3172991223469528255
+    second: SwankWalk_3
+  - first:
+      213: 869194830901147850
+    second: SwankWalk_4
+  - first:
+      213: 7352612573161385402
+    second: SwankWalk_5
+  - first:
+      213: -8191788739408991888
+    second: SwankWalk_6
+  - first:
+      213: -6499858670572279704
+    second: SwankWalk_7
+  - first:
+      213: 582850948459342215
+    second: SwankWalk_8
+  - first:
+      213: -213926843671072971
+    second: SwankWalk_9
+  - first:
+      213: 8712141066529968475
+    second: SwankWalk_10
+  - first:
+      213: -2745817930287819926
+    second: SwankWalk_11
+  - first:
+      213: 3001080924653770537
+    second: SwankWalk_12
+  - first:
+      213: -5966433633503309416
+    second: SwankWalk_13
+  - first:
+      213: -3591905240809381843
+    second: SwankWalk_14
+  - first:
+      213: -678171069157479167
+    second: SwankWalk_15
+  - first:
+      213: 1316245169543209139
+    second: SwankWalk_16
+  - first:
+      213: 2399848451498725170
+    second: SwankWalk_17
+  - first:
+      213: 2913940592258071975
+    second: SwankWalk_18
+  - first:
+      213: -979050723324602849
+    second: SwankWalk_19
+  - first:
+      213: -1054335057418505636
+    second: SwankWalk_20
+  - first:
+      213: -4606436799316368957
+    second: SwankWalk_21
+  - first:
+      213: 5038395913740253073
+    second: SwankWalk_22
+  - first:
+      213: -6132931502725262697
+    second: SwankWalk_23
+  - first:
+      213: 1476103834924057544
+    second: SwankWalk_24
+  - first:
+      213: 1323904033422350334
+    second: SwankWalk_25
+  - first:
+      213: 2315742980519891955
+    second: SwankWalk_26
+  - first:
+      213: -7822166075293521840
+    second: SwankWalk_27
+  - first:
+      213: -1226312278577476795
+    second: SwankWalk_28
+  - first:
+      213: 3238654087754345294
+    second: SwankWalk_29
+  - first:
+      213: -3140282447304359512
+    second: SwankWalk_30
+  - first:
+      213: -403696065296855256
+    second: SwankWalk_31
+  - first:
+      213: 6442794523854121159
+    second: SwankWalk_32
+  - first:
+      213: 8454663044150326267
+    second: SwankWalk_33
+  - first:
+      213: -313080939126857645
+    second: SwankWalk_34
+  - first:
+      213: 4397289670887356944
+    second: SwankWalk_35
+  - first:
+      213: -8648310055046624056
+    second: SwankWalk_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwankWalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1644
+        width: 311
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfd197fdd2d56650800000000000000
+      internalID: 6225613910692716465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_1
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1644
+        width: 311
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e39d2d8e1aba050800000000000000
+      internalID: 5812917765393694360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_2
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1644
+        width: 311
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e3f6ffd8f3de1f0800000000000000
+      internalID: -1014084461980074437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_3
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1644
+        width: 311
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14baaa12b4547f3d0800000000000000
+      internalID: -3172991223469528255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_4
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1644
+        width: 311
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8f770f710001c00800000000000000
+      internalID: 869194830901147850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_5
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1644
+        width: 312
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdea52fd2ab90660800000000000000
+      internalID: 7352612573161385402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_6
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 1644
+        width: 312
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0796b702b8be05e80800000000000000
+      internalID: -8191788739408991888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_7
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 1644
+        width: 312
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868eb421afcdbc5a0800000000000000
+      internalID: -6499858670572279704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_8
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 1644
+        width: 311
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7892beb79d3b61800800000000000000
+      internalID: 582850948459342215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_9
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 1644
+        width: 311
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fa01b4baaf70df0800000000000000
+      internalID: -213926843671072971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_10
+      rect:
+        serializedVersion: 2
+        x: 3480
+        y: 1644
+        width: 312
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b519c9f142eb7e870800000000000000
+      internalID: 8712141066529968475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1197
+        width: 311
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63db4fe325e4e9d0800000000000000
+      internalID: -2745817930287819926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_12
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1213
+        width: 270
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9275038533bf5a920800000000000000
+      internalID: 3001080924653770537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1213
+        width: 264
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891971bc838f23da0800000000000000
+      internalID: -5966433633503309416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_14
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 1215
+        width: 264
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2061b6d63df62ec0800000000000000
+      internalID: -3591905240809381843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_15
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1213
+        width: 273
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10debe57107a696f0800000000000000
+      internalID: -678171069157479167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_16
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1200
+        width: 294
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b062f7020e344210800000000000000
+      internalID: 1316245169543209139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_17
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 1191
+        width: 308
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f4a52a379fd4120800000000000000
+      internalID: 2399848451498725170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_18
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 1191
+        width: 310
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad322aa785607820800000000000000
+      internalID: 2913940592258071975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_19
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 1191
+        width: 308
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16d52bed86b962f0800000000000000
+      internalID: -979050723324602849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_20
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 1191
+        width: 309
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c523454f9df3e51f0800000000000000
+      internalID: -1054335057418505636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_21
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 1191
+        width: 310
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1e5701326a210c0800000000000000
+      internalID: -4606436799316368957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 743
+        width: 307
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1977444936afbe540800000000000000
+      internalID: 5038395913740253073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_23
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 743
+        width: 308
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792124cba4373eaa0800000000000000
+      internalID: -6132931502725262697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_24
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 743
+        width: 309
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c38d3cfd9c2c7410800000000000000
+      internalID: 1476103834924057544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_25
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 743
+        width: 307
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef798dc34b37f5210800000000000000
+      internalID: 1323904033422350334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_26
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 743
+        width: 307
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f31ef0b8fb232020800000000000000
+      internalID: 2315742980519891955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_27
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 743
+        width: 308
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058a40ce565127390800000000000000
+      internalID: -7822166075293521840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_28
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 743
+        width: 310
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b80bbda734bfee0800000000000000
+      internalID: -1226312278577476795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_29
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 743
+        width: 310
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4be6f2dbb202fc20800000000000000
+      internalID: 3238654087754345294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_30
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 741
+        width: 282
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1870a80c97b64d0800000000000000
+      internalID: -3140282447304359512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_31
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 744
+        width: 239
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f02c64198c56af0800000000000000
+      internalID: -403696065296855256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_32
+      rect:
+        serializedVersion: 2
+        x: 3478
+        y: 743
+        width: 247
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8282beb77696950800000000000000
+      internalID: 6442794523854121159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 258
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3f3327e3ff45570800000000000000
+      internalID: 8454663044150326267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_34
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 296
+        width: 301
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350e56d6b86b7abf0800000000000000
+      internalID: -313080939126857645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_35
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 301
+        width: 313
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a3cb768af460d30800000000000000
+      internalID: 4397289670887356944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankWalk_36
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 301
+        width: 315
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccc18d53d70bf780800000000000000
+      internalID: -8648310055046624056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
