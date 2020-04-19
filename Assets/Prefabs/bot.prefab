@@ -124,17 +124,17 @@ MonoBehaviour:
   firstLevelSprite: {fileID: 21300000, guid: e6ef72571671d184690069fa4cee0901, type: 3}
   secondLevelSprite: {fileID: 21300000, guid: fb86e03814d2e7142bd3a7299509e9e9, type: 3}
   thirdLevelSprite: {fileID: 21300000, guid: 33c836a5d8ce9c44f9dcf9561c6fd41c, type: 3}
-  level1Collider: {fileID: 2655988077585873504, guid: 613acfe157d137944a3147664fb192d9,
+  SmallBotCollider: {fileID: 2655988077585873504, guid: c15ce92acf4eaf241bbb504d216afe89,
     type: 2}
-  level2Collider: {fileID: 2655988077585873504, guid: d45ee543f27b13d438997a3bfc363609,
+  MediumBotCollider: {fileID: 2655988077585873504, guid: 6c037c8005f1e2a40be90d4a724141bb,
     type: 2}
-  level3Collider: {fileID: 2655988077585873504, guid: cb6169bbe8268fb448ab28539aff3ad5,
+  LargeBotCollider: {fileID: 2655988077585873504, guid: 6afbec1668e2c344ea7dfccc594fd010,
     type: 2}
-  level1Trigger: {fileID: 2655988077585873504, guid: c15ce92acf4eaf241bbb504d216afe89,
+  SmallBotFeetCollider: {fileID: 2655988077585873504, guid: 613acfe157d137944a3147664fb192d9,
     type: 2}
-  level2Trigger: {fileID: 2655988077585873504, guid: 6c037c8005f1e2a40be90d4a724141bb,
+  MediumBotFeetCollider: {fileID: 2655988077585873504, guid: d45ee543f27b13d438997a3bfc363609,
     type: 2}
-  level3Trigger: {fileID: 2655988077585873504, guid: 6afbec1668e2c344ea7dfccc594fd010,
+  LargeBotFeetCollider: {fileID: 2655988077585873504, guid: cb6169bbe8268fb448ab28539aff3ad5,
     type: 2}
 --- !u!114 &50496381
 MonoBehaviour:

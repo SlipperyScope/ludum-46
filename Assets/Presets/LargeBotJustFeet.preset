@@ -6,7 +6,7 @@ Preset:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: level1TriggerCollider
+  m_Name: LargeBotJustFeet
   m_TargetType:
     m_NativeTypeID: 60
     m_ManagedTypePPtr: {fileID: 0}
@@ -70,11 +70,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteTilingProperty.oldSize.x
-    value: 0.795539
+    value: 2.2360594
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteTilingProperty.oldSize.y
-    value: 0.7769517
+    value: 2.3624535
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteTilingProperty.newSize.x
@@ -106,729 +106,625 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.size
-    value: 82
+    value: 74
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].x
-    value: 0.366171
+    value: 0.23141263
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].y
-    value: -0.2881041
+    value: -1.1217473
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].x
-    value: 0.36059478
+    value: 0.25
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].y
-    value: -0.232342
+    value: -1.1068773
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
-    value: 0.35315984
+    value: 0.26858735
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
-    value: -0.18773234
+    value: -1.0864313
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
-    value: 0.34944236
+    value: 0.29275092
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
-    value: -0.18029739
+    value: -1.0585501
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
-    value: 0.34758365
+    value: 0.31877324
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
-    value: -0.16914497
+    value: -1.0009294
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].x
-    value: 0.3401487
+    value: 0.3224907
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].y
-    value: -0.13197026
+    value: -0.9842007
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].x
-    value: 0.33828995
+    value: 0.32620817
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[6].y
-    value: -0.124535315
+    value: -0.9451673
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[7].x
-    value: 0.33643124
+    value: 0.32620817
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[7].y
-    value: -0.11524163
+    value: -0.91356874
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[8].x
-    value: 0.3345725
+    value: 0.31877324
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[8].y
-    value: -0.10780669
+    value: -0.8280669
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[9].x
-    value: 0.33271375
+    value: 0.31877324
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[9].y
-    value: -0.09479554
+    value: -0.79460967
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[10].x
-    value: 0.3550186
+    value: 0.32063198
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[10].y
-    value: -0.09665427
+    value: -0.77230483
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[11].x
-    value: 0.37546468
+    value: 0.3336431
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[11].y
-    value: -0.07992565
+    value: -0.7091078
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[12].x
-    value: 0.37918216
+    value: 0.33921933
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[12].y
-    value: -0.070631966
+    value: -0.69052047
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[13].x
-    value: 0.37918216
+    value: 0.35966542
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[13].y
-    value: -0.035315983
+    value: -0.63847584
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[14].x
-    value: 0.36431226
+    value: 0.38197026
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[14].y
-    value: -0.0111524165
+    value: -0.5957249
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[15].x
-    value: 0.32156134
+    value: 0.42286244
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[15].y
-    value: 0.035315983
+    value: -0.5288104
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[16].x
-    value: 0.22862454
+    value: 0.45817843
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[16].y
-    value: 0.13754646
+    value: -0.47676578
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[17].x
-    value: 0.2267658
+    value: -0.66078067
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[17].y
-    value: 0.15055762
+    value: -0.37081784
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[18].x
-    value: 0.24163568
+    value: -0.66449815
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[18].y
-    value: 0.17286246
+    value: -0.4042751
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[19].x
-    value: 0.23977695
+    value: -0.679368
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[19].y
-    value: 0.20446096
+    value: -0.45817843
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[20].x
-    value: 0.22862454
+    value: -0.69981414
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[20].y
-    value: 0.23420075
+    value: -0.517658
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[21].x
-    value: 0.17100371
+    value: -0.7165427
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[21].y
-    value: 0.31784385
+    value: -0.5585502
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[22].x
-    value: 0.14684014
+    value: -0.7165427
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[22].y
-    value: 0.34386617
+    value: -0.56226766
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[23].x
-    value: 0.12639405
+    value: -0.7555762
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[23].y
-    value: 0.35315984
+    value: -0.63847584
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[24].x
-    value: 0.007434944
+    value: -0.7592937
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[24].y
-    value: 0.35315984
+    value: -0.6421933
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[25].x
-    value: 0.0055762082
+    value: -0.8113383
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[25].y
-    value: 0.3550186
+    value: -0.7239777
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[26].x
-    value: -0.091078065
+    value: -0.848513
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[26].y
-    value: 0.3550186
+    value: -0.77044606
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[27].x
-    value: -0.0929368
+    value: -0.8819702
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[27].y
-    value: 0.35687733
+    value: -0.813197
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[28].x
-    value: -0.13568772
+    value: -0.8819702
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[28].y
-    value: 0.35687733
+    value: -0.8150557
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[29].x
-    value: -0.14869888
+    value: -0.97118956
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[29].y
-    value: 0.3550186
+    value: -0.90055764
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[30].x
-    value: -0.1654275
+    value: -0.9730483
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[30].y
-    value: 0.35315984
+    value: -0.90799254
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[31].x
-    value: -0.18029739
+    value: -0.96375465
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[31].y
-    value: 0.34386617
+    value: -0.9210037
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[32].x
-    value: -0.18959108
+    value: -0.93215615
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[32].y
-    value: 0.33271375
+    value: -0.93959105
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[33].x
-    value: -0.2007435
+    value: -0.8875465
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[33].y
-    value: 0.30855018
+    value: -0.9618959
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[34].x
-    value: -0.20260222
+    value: -0.855948
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[34].y
-    value: 0.2788104
+    value: -0.96933085
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[35].x
-    value: -0.19330855
+    value: -0.83178437
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[35].y
-    value: 0.23791821
+    value: -0.97490704
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[36].x
-    value: -0.17472118
+    value: -0.80576205
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[36].y
-    value: 0.20446096
+    value: -0.9786245
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[37].x
-    value: -0.15799256
+    value: -0.777881
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[37].y
-    value: 0.18401487
+    value: -0.98048323
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[38].x
-    value: -0.133829
+    value: -0.7295539
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[38].y
-    value: 0.14869888
+    value: -0.9786245
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[39].x
-    value: -0.11524163
+    value: -0.70353156
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[39].y
-    value: 0.12267658
+    value: -0.97490704
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[40].x
-    value: -0.10780669
+    value: -0.686803
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[40].y
-    value: 0.10594796
+    value: -0.97118956
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[41].x
-    value: -0.11895911
+    value: -0.63661706
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[41].y
-    value: 0.08550186
+    value: -0.9581784
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[42].x
-    value: -0.13568772
+    value: -0.58829
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[42].y
-    value: 0.08364312
+    value: -0.93215615
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[43].x
-    value: -0.15799256
+    value: -0.5697026
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[43].y
-    value: 0.06877323
+    value: -0.919145
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[44].x
-    value: -0.1654275
+    value: -0.5697026
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[44].y
-    value: 0.052044608
+    value: -0.9526022
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[45].x
-    value: -0.19330855
+    value: -0.5492565
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[45].y
-    value: 0.053903345
+    value: -0.9972119
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[46].x
-    value: -0.22118959
+    value: -0.517658
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[46].y
-    value: 0.052044608
+    value: -1.0306691
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[47].x
-    value: -0.25464684
+    value: -0.48048326
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[47].y
-    value: 0.0464684
+    value: -1.0511153
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[48].x
-    value: -0.2843866
+    value: -0.46375465
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[48].y
-    value: 0.04089219
+    value: -1.0566914
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[49].x
-    value: -0.3345725
+    value: -0.43215612
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[49].y
-    value: 0.01858736
+    value: -1.0622677
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[50].x
-    value: -0.3550186
+    value: -0.383829
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[50].y
-    value: 0.0055762082
+    value: -1.060409
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[51].x
-    value: -0.36802974
+    value: -0.348513
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[51].y
-    value: -0.00929368
+    value: -1.052974
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[52].x
-    value: -0.37732342
+    value: -0.32063198
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[52].y
-    value: -0.01858736
+    value: -1.0399628
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[53].x
-    value: -0.3828996
+    value: -0.2964684
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[53].y
-    value: -0.03717472
+    value: -1.0269517
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[54].x
-    value: -0.3828996
+    value: -0.2815985
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[54].y
-    value: -0.063197024
+    value: -1.0492564
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[55].x
-    value: -0.37546468
+    value: -0.25185874
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[55].y
-    value: -0.08736059
+    value: -1.0789963
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[56].x
-    value: -0.3550186
+    value: -0.24070631
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[56].y
-    value: -0.10594796
+    value: -1.0845724
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[57].x
-    value: -0.29368028
+    value: -0.21282528
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[57].y
-    value: -0.15055762
+    value: -1.0994424
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[58].x
-    value: -0.2639405
+    value: -0.18494424
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[58].y
-    value: -0.17657992
+    value: -1.1031598
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[59].x
-    value: -0.1914498
+    value: -0.151487
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[59].y
-    value: -0.22862454
+    value: -1.1031598
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[60].x
-    value: -0.104089215
+    value: -0.11245353
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[60].y
-    value: -0.28996283
+    value: -1.0957249
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[61].x
-    value: -0.048327137
+    value: -0.077137545
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[61].y
-    value: -0.33271375
+    value: -1.0752788
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[62].x
-    value: -0.026022304
+    value: -0.064126395
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[62].y
-    value: -0.34200743
+    value: -1.060409
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[63].x
-    value: 0.0055762082
+    value: -0.045539033
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[63].y
-    value: -0.3550186
+    value: -1.0901487
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[64].x
-    value: 0.03345725
+    value: -0.015799256
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[64].y
-    value: -0.35873607
+    value: -1.116171
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[65].x
-    value: 0.078066915
+    value: 0.0027881041
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[65].y
-    value: -0.35873607
+    value: -1.1291821
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[66].x
-    value: 0.10223048
+    value: 0.039962824
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[66].y
-    value: -0.33828995
+    value: -1.1459107
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[67].x
-    value: 0.10594796
+    value: 0.05669145
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[67].y
-    value: -0.32713753
+    value: -1.151487
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[68].x
-    value: 0.111524165
+    value: 0.08271375
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[68].y
-    value: -0.30669144
+    value: -1.1570631
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[69].x
-    value: 0.1133829
+    value: 0.09386617
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[69].y
-    value: -0.2732342
+    value: -1.158922
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[70].x
-    value: 0.15613383
+    value: 0.1421933
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[70].y
-    value: -0.31040892
+    value: -1.158922
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[71].x
-    value: 0.17843866
+    value: 0.16263941
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[71].y
-    value: -0.32527882
+    value: -1.1533457
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[72].x
-    value: 0.20260222
+    value: 0.18494424
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[72].y
-    value: -0.34200743
+    value: -1.1459107
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[73].x
-    value: 0.23420075
+    value: 0.20724908
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[0].Array.data[73].y
-    value: -0.35873607
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[74].x
-    value: 0.24163568
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[74].y
-    value: -0.36802974
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[75].x
-    value: 0.25464684
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[75].y
-    value: -0.37546468
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[76].x
-    value: 0.28996283
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[76].y
-    value: -0.37918216
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[77].x
-    value: 0.30855018
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[77].y
-    value: -0.3810409
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[78].x
-    value: 0.3345725
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[78].y
-    value: -0.3810409
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[79].x
-    value: 0.3457249
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[79].y
-    value: -0.37732342
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[80].x
-    value: 0.36245352
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[80].y
-    value: -0.36431226
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[81].x
-    value: 0.36988848
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[0].Array.data[81].y
-    value: -0.3457249
+    value: -1.1366171
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[1].Array.size
-    value: 8
+    value: 3
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[1].Array.data[0].x
-    value: 0.133829
+    value: -0.3224907
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[1].Array.data[0].y
-    value: 0.027881041
+    value: 0.83550185
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[1].Array.data[1].x
-    value: 0.13011152
+    value: -0.25371748
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[1].Array.data[1].y
-    value: 0.08921933
+    value: 0.86895907
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[1].Array.data[2].x
-    value: 0.1394052
+    value: -0.28903344
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_Points.m_Paths.Array.data[1].Array.data[2].y
-    value: 0.104089215
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[3].x
-    value: 0.19702601
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[3].y
-    value: 0.035315983
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[4].x
-    value: 0.14312267
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[4].y
-    value: 0.04275093
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[5].x
-    value: 0.13754646
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[5].y
-    value: 0.024163568
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[6].x
-    value: 0.133829
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[6].y
-    value: 0.020446096
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[7].x
-    value: 0.13568772
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Points.m_Paths.Array.data[1].Array.data[7].y
-    value: 0.020446096
+    value: 0.8522305
     objectReference: {fileID: 0}
