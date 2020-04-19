@@ -8,7 +8,7 @@ public class Bot : MonoBehaviour
     public float speed = 1f;
     public int botLevel = 1;
 
-    // private int pointValue = 100;
+    
     // private bool alive = true;
     private SpriteRenderer spriteR;
     public Vector3 anchoirPoint;
@@ -18,12 +18,16 @@ public class Bot : MonoBehaviour
     public Sprite secondLevelSprite;
     public Sprite thirdLevelSprite;
 
-    public Preset firstLevelPreset;
-    public Preset secondLevelPreset;
-    public Preset ThirdLevelPreset;
+    public Preset level1Collider;
+    public Preset level2Collider;
+    public Preset level3Collider;
 
+    public Preset level1Trigger;
+    public Preset level2Trigger;
+    public Preset level3Trigger;
 
     private Vector3 moveDirection;
+    private int pointValue;
 
 
     void Awake()
@@ -54,25 +58,32 @@ public class Bot : MonoBehaviour
         moveDirection = (anchoirPoint - transform.position).normalized;
         if (moveDirection.x < 0) transform.localScale = new Vector3(-1, 1, 1);
 
+        pointValue = 100 * botLevel;
+
         switch (botLevel)
         {
             case 1:
                 spriteR.sprite = firstLevelSprite;
-                firstLevelPreset.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                level1Collider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                level1Trigger.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 break;
             case 2:
                 spriteR.sprite = secondLevelSprite;
-                secondLevelPreset.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                level2Collider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                level2Trigger.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 break;
             case 3:
                 spriteR.sprite = thirdLevelSprite;
-                ThirdLevelPreset.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                level3Collider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                level3Trigger.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 break;
             default:
                 spriteR.sprite = firstLevelSprite;
-                firstLevelPreset.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                level1Collider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                level1Collider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 break;
         }
+        Debug.Log(pointValue);
     }
 
     private void ControlBotDeath()
