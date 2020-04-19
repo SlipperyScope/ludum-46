@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 5020175174638884605}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.59, y: -4.15, z: 0}
-  m_LocalScale: {x: 5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -147,6 +147,6 @@ MonoBehaviour:
   botLevel: 1
   anchoirPoint: {x: 0, y: 0, z: 0}
   killDistance: 0
-  firstLevelSprite: {fileID: 21300000, guid: e1289ceafe84e804c81a6b2475b0148c, type: 3}
-  secondLevelSprite: {fileID: 21300000, guid: b57d377b580f59541825695db1b37fda, type: 3}
-  thirdLevelSprite: {fileID: 21300000, guid: 7f03ecc91b6c13e4a824433b532cea8b, type: 3}
+  firstLevelSprite: {fileID: 21300000, guid: e6ef72571671d184690069fa4cee0901, type: 3}
+  secondLevelSprite: {fileID: 21300000, guid: fb86e03814d2e7142bd3a7299509e9e9, type: 3}
+  thirdLevelSprite: {fileID: 21300000, guid: 33c836a5d8ce9c44f9dcf9561c6fd41c, type: 3}

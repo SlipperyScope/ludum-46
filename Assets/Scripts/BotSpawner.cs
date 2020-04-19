@@ -10,6 +10,7 @@ public class BotSpawner : MonoBehaviour
 
     public float radiusForAnchorSpawns = 4.0f;
     public float spawnDelay = .5f;
+    public int botLevel = 1;
 
 
     private Vector3 center = Vector3.zero;
@@ -24,7 +25,7 @@ public class BotSpawner : MonoBehaviour
         Camera camera = Camera.main;
         float halfHeight = camera.orthographicSize;
         float halfWidth = camera.aspect * halfHeight;
-        radiusForSpawningEnemies = halfWidth + 1f;
+        radiusForSpawningEnemies = halfWidth + 5f;
         killDistance = radiusForSpawningEnemies + .01f;
     }
 
@@ -49,6 +50,7 @@ public class BotSpawner : MonoBehaviour
         GameObject bot = Instantiate(botPreFab, botSpawnPoint, Quaternion.identity);
         bot.GetComponent<Bot>().anchoirPoint = anchoirPoint;
         bot.GetComponent<Bot>().killDistance = killDistance;
+        bot.GetComponent<Bot>().botLevel = botLevel;
     }
 
     void getAnchorPoint(Vector3 center, float radius)

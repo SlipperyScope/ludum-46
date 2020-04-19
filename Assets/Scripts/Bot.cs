@@ -29,18 +29,18 @@ public class Bot : MonoBehaviour
     {
         this.SetBotSprite(botLevel);
         moveDirection = (anchoirPoint - transform.position).normalized;
+        if (moveDirection.x < 0) spriteR.flipX = true; 
     }
 
-    // Update is called once per frame
     void Update()
     {
-        this.MoveBot(speed, botLevel);
+        this.MoveBot();
         this.ControlBotDeath();
     }
 
-    private void MoveBot(float speed, int levelModifier)
+    private void MoveBot()
     {
-        float step = speed * levelModifier * Time.deltaTime;
+        float step = speed * botLevel * Time.deltaTime;
         transform.position += moveDirection * step;
     }
 
@@ -69,5 +69,7 @@ public class Bot : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        // TODO: Handle collision with swank
     }
 }
