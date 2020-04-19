@@ -11,16 +11,21 @@ public class SwankAI : MonoBehaviour
 
     public Rect PlayArea;
 
-    public Boolean IsDancing { get; }
+    #region Dancing stuff
+    public Boolean IsDancing { get; private set; }
     public Boolean Dance()
     {
+        //IsDancing = true;
         return true;
-    }
+    } 
+    #endregion
 
     void Start()
     {
+        //Debug.Log($"{nameof(Behavior.blackboard)}: {Behavior.blackboard}");
         Blackboard = Behavior.blackboard;
         Blackboard.SetBehaviorParam("Entity", gameObject);
+        Blackboard.SetBehaviorParam("AI", this);
         Blackboard.SetBehaviorParam("Destination", (Vector2)transform.position);
         Blackboard.SetBehaviorParam("Bounds", PlayArea);
     }

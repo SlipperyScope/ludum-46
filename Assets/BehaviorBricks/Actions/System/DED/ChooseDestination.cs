@@ -24,11 +24,14 @@ namespace BBUnity.Actions
         [OutParam("RandomLocation")]
         public Vector2 RandomLocation;
 
-        public override void OnStart()
+        /// <summary>
+        /// OnUpdate
+        /// </summary>
+        public override TaskStatus OnUpdate()
         {
             var X = Random.Range(Area.xMin, Area.xMax);
             var Y = Random.Range(Area.yMin, Area.yMax);
-            
+
             RandomLocation = new Vector2(X, Y);
 
             var Swank = Entity.GetComponent<SwankMovementComponent>();
@@ -36,13 +39,7 @@ namespace BBUnity.Actions
             {
                 Swank.Destination = RandomLocation;
             }
-        }
 
-        /// <summary>
-        /// OnUpdate
-        /// </summary>
-        public override TaskStatus OnUpdate()
-        {
             if (Area.size == Vector2.zero)
             {
                 Debug.LogWarning($"{nameof(Area)} is zero");

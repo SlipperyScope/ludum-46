@@ -17,9 +17,12 @@ namespace BBunity.Actions
         [InParam("Entity")]
         public GameObject Entity;
 
+        [InParam("AI")]
+        public SwankAI AI;
+
         public override TaskStatus OnUpdate()
         {
-            var AI = Entity.GetComponent<SwankAI>();
+            AI = Entity.GetComponent<SwankAI>();
 
             if (AI is null)
             {
