@@ -33,6 +33,7 @@ public class BotSpawner : MonoBehaviour
     {
         currentBots = GameObject.FindGameObjectsWithTag("bot").Length;
         //TODO: get current score and use it in the calculation for bot level
+        var score = GameObject.FindGameObjectWithTag("SwankyMcDancepants").GetComponent<PlayerStat>().getScore();
     }
 
     IEnumerator spawnEnemies()
