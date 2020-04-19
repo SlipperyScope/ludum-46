@@ -7,8 +7,8 @@ public class HeroMovement : MonoBehaviour
     public SpriteRenderer sadSprite;
     public float moveSpeed = 2;
     public float thrust = .5f;
-    public float punchRange = 1;
-    public float punchForce = .1f;
+    public float punchRange = 1.5f;
+    public float punchForce = 100;
     public bool canMove;
     private float rightAxis;
     private float upAxis;
@@ -74,26 +74,18 @@ public class HeroMovement : MonoBehaviour
         Vector2 rot = Quaternion.LookRotation(transform.position - mousePos, Vector3.forward) * Vector2.up;
 
         var hits = new HashSet<RaycastHit2D>();
-        foreach (var i in new[] { -1, 0, 1 })
+        foreach (var hit in Physics2D.RaycastAll(transform.position, rot, punchRange))
         {
-            var offset = transform.right * 1.13f * i;
-            foreach (var hit in Physics2D.RaycastAll(transform.position + offset, rot, punchRange))
+            if (hit.transform != transform)
             {
-                if (hit.transform != transform)
-                {
-                    hits.Add(hit);
-                }
-            }
-
-            foreach (var hit in hits)
-            {
+                Debug.Log("Hit");
                 var rb = hit.transform.gameObject.GetComponent<Rigidbody2D>();
                 if (rb)
                 {
                     rb.AddForce(new Vector2(rot.x, rot.y) * punchForce, ForceMode2D.Impulse);
                 }
-            }
+                    hits.Add(hit);
+                }
         }
-
     }
 }
