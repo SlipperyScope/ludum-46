@@ -11,6 +11,13 @@ public class SwankMovementComponent : MonoBehaviour
 
     public Vector2 Destination { get; set; }
 
+    public SpriteRenderer SwankySprite;
+
+    private void Start()
+    {
+        SwankySprite = gameObject.GetComponentInChildren<SpriteRenderer>();
+    }
+
     private void Update()
     {
         Debug.Log($"Pos: {(Vector2)transform.position} :: des: {Destination}");
@@ -18,6 +25,11 @@ public class SwankMovementComponent : MonoBehaviour
         var position = (Vector2)transform.position;
         var direction = (Destination - position).normalized;
         direction.y *= YFactor;
+
+        if (Mathf.Abs(direction.x) > 0)
+        {
+            SwankySprite.flipX = direction.x < 0;
+        }
 
         position += direction * MoveSpeed * Time.deltaTime;
         gameObject.transform.position = position;
