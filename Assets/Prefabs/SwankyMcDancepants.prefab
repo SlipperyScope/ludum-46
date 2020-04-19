@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2836809995542580173}
   - component: {fileID: 368126067}
   - component: {fileID: 5381379198069548189}
-  - component: {fileID: 8417474340026340980}
+  - component: {fileID: 8923953492170717475}
   m_Layer: 10
   m_Name: SwankyMcDancepants
   m_TagString: SwankyMcDancepants
@@ -210,7 +210,7 @@ PolygonCollider2D:
     - - {x: -0.17657992, y: -0.2732342}
       - {x: -0.17286246, y: -0.2788104}
       - {x: -0.16728625, y: -0.2788104}
---- !u!70 &8417474340026340980
+--- !u!70 &8923953492170717475
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -220,7 +220,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.12, y: -0.599}

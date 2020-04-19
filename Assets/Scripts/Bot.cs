@@ -45,6 +45,11 @@ public class Bot : MonoBehaviour
         this.ControlBotDeath();
     }
 
+    public float GetPointValue()
+    {
+        return pointValue;
+    }
+
     private void MoveBot()
     {
         float step = speed * botLevel * Time.deltaTime;
