@@ -36,9 +36,7 @@ namespace BBCore.Conditions
             var XThreshold = Threshold;
 
             var Ellipse = new Ellipse(XThreshold * 2f, YThreshold * 2f * YRatio);
-            Debug.Log(Entity.transform.position);
-            Debug.Log(Destination);
-            Debug.Log(DeltaLocation);
+
             Debug.Log(Ellipse.Contains(DeltaLocation));
 
             return Ellipse.Contains(DeltaLocation);

@@ -73,40 +73,40 @@ MonoBehaviour:
     />\r\n          <ActionNode id=\"8\" />\r\n          <ActionNode id=\"11\" />\r\n         
     <RepeatDecorator id=\"10\" />\r\n        </nodes>\r\n      </_nodes>\r\n    </BehaviorTree>\r\n   
     <RepeatDecorator id=\"10\">\r\n      <_data>\r\n        <data breakpoint=\"0\"
-    selected=\"False\" position=\"1131 31\" name=\"Repeat\" description=\"Repeats
+    selected=\"False\" position=\"856 -70\" name=\"Repeat\" description=\"Repeats
     the execution of its child node\" cardinality=\"1\" hasParent=\"False\">\r\n         
     <BehaviorTree id=\"0\" />\r\n          <RepeatDecorator id=\"10\" />\r\n       
     </data>\r\n      </_data>\r\n    </RepeatDecorator>\r\n    <SelectorNode id=\"5\">\r\n     
-    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"1103.777
-    181.2224\" name=\"Selector\" description=\"Executes all its children until one
+    <_data>\r\n        <data breakpoint=\"0\" selected=\"False\" position=\"828.777
+    80.22241\" name=\"Selector\" description=\"Executes all its children until one
     of them is successful\" cardinality=\"-1\" hasParent=\"True\">\r\n          <BehaviorTree
     id=\"0\" />\r\n          <RepeatDecorator id=\"10\" />\r\n          <RepeatDecorator
     id=\"10\" />\r\n        </data>\r\n      </_data>\r\n    </SelectorNode>\r\n   
     <SequenceNode id=\"4\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"756.0012 383.0008\" name=\"Sequence\" description=\"Executes all its
+    position=\"481.0012 282.0008\" name=\"Sequence\" description=\"Executes all its
     children in sequence until all of them are successful\" cardinality=\"-1\" hasParent=\"True\">\r\n         
     <BehaviorTree id=\"0\" />\r\n          <SelectorNode id=\"5\" />\r\n         
     <SelectorNode id=\"5\" />\r\n        </data>\r\n      </_data>\r\n    </SequenceNode>\r\n   
     <ActionNode id=\"1\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"1291.554 498.9994\" name=\"Basic/WaitForSeconds\" description=\"Action
+    position=\"1016.554 397.9994\" name=\"Basic/WaitForSeconds\" description=\"Action
     that success after a period of time.\" cardinality=\"0\" hasParent=\"True\">\r\n         
     <BehaviorTree id=\"0\" />\r\n          <SelectorNode id=\"5\" />\r\n         
     <SelectorNode id=\"5\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n   
-    <ActionNode id=\"11\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"279 567\" name=\"DED/HelloWorld\" description=\"Prints a message\"
+    <ActionNode id=\"11\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"True\"
+    position=\"54 570\" name=\"DED/HelloWorld\" description=\"Prints a message\"
     cardinality=\"0\" hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n         
     <ActionNode id=\"11\" />\r\n          <SequenceNode id=\"4\" />\r\n        </data>\r\n     
     </_data>\r\n    </ActionNode>\r\n    <ActionNode id=\"8\">\r\n      <_data>\r\n       
-    <data breakpoint=\"0\" selected=\"False\" position=\"563 640\" name=\"DED/ChooseDestination\"
+    <data breakpoint=\"0\" selected=\"False\" position=\"288 539\" name=\"DED/ChooseDestination\"
     description=\"Picks a random location in a rectangle\" cardinality=\"0\" hasParent=\"True\">\r\n         
     <BehaviorTree id=\"0\" />\r\n          <ActionNode id=\"8\" />\r\n          <SequenceNode
     id=\"4\" />\r\n        </data>\r\n      </_data>\r\n    </ActionNode>\r\n   
     <ActionNode id=\"7\">\r\n      <_data>\r\n        <data breakpoint=\"0\" selected=\"False\"
-    position=\"840 645\" name=\"DED/PrintBB\" description=\"\" cardinality=\"0\"
+    position=\"565 544\" name=\"DED/PrintBB\" description=\"\" cardinality=\"0\"
     hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n          <ActionNode
     id=\"7\" />\r\n          <SequenceNode id=\"4\" />\r\n        </data>\r\n     
     </_data>\r\n    </ActionNode>\r\n    <ActionNode id=\"6\">\r\n      <_data>\r\n       
-    <data breakpoint=\"0\" selected=\"False\" position=\"1036.11 643.3337\" name=\"Basic/WaitForSeconds\"
+    <data breakpoint=\"0\" selected=\"False\" position=\"761.11 542.3337\" name=\"Basic/WaitForSeconds\"
     description=\"Action that success after a period of time.\" cardinality=\"0\"
     hasParent=\"True\">\r\n          <BehaviorTree id=\"0\" />\r\n          <SequenceNode
     id=\"4\" />\r\n          <SequenceNode id=\"4\" />\r\n        </data>\r\n     

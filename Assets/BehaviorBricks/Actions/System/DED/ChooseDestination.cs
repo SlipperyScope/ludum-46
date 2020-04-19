@@ -31,11 +31,10 @@ namespace BBUnity.Actions
             
             RandomLocation = new Vector2(X, Y);
 
-            var BotAI = Entity.GetComponent<BotAI>();
-            if (BotAI != null)
+            var Swank = Entity.GetComponent<SwankMovementComponent>();
+            if (Swank != null)
             {
-                Debug.Log("sdfasdfa" + RandomLocation);
-                BotAI.HeyMoveHere = RandomLocation;
+                Swank.Destination = RandomLocation;
             }
         }
 
