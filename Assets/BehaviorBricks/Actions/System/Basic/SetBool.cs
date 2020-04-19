@@ -11,8 +11,6 @@ namespace BBUnity.Actions
     [Help("Sets a value to a boolean variable")]
     public class SetBool : BasePrimitiveAction
     {
-        
-
         ///<value>OutPut Boolean Parameter.</value>
         [OutParam("var")]
         [Help("output variable")]

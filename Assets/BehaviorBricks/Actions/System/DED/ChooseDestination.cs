@@ -15,11 +15,29 @@ namespace BBUnity.Actions
     [Help("Picks a random location in a rectangle")]
     public class ChooseDestination : GOAction
     {
+        [InParam("Entity")]
+        public GameObject Entity;
+
         [InParam("Area")]
         public Rect Area;
 
         [OutParam("RandomLocation")]
         public Vector2 RandomLocation;
+
+        public override void OnStart()
+        {
+            var X = Random.Range(Area.xMin, Area.xMax);
+            var Y = Random.Range(Area.yMin, Area.yMax);
+            
+            RandomLocation = new Vector2(X, Y);
+
+            var BotAI = Entity.GetComponent<BotAI>();
+            if (BotAI != null)
+            {
+                Debug.Log("sdfasdfa" + RandomLocation);
+                BotAI.HeyMoveHere = RandomLocation;
+            }
+        }
 
         /// <summary>
         /// OnUpdate
@@ -31,10 +49,6 @@ namespace BBUnity.Actions
                 Debug.LogWarning($"{nameof(Area)} is zero");
                 return TaskStatus.FAILED;
             }
-
-            var X = Random.Range(Area.xMin, Area.xMax);
-            var Y = Random.Range(Area.yMin, Area.yMax);
-            RandomLocation = new Vector2(X, Y);
 
             return TaskStatus.COMPLETED;
         }
