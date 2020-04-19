@@ -39,6 +39,12 @@ namespace BBUnity.Actions
             {
                 Swank.Destination = RandomLocation;
             }
+            var AI = Entity.GetComponent<SwankAI>();
+            var isWalking = AI.IsWalking;
+            if (isWalking == false)
+            {
+                AI.Walk();
+            }
 
             if (Area.size == Vector2.zero)
             {
