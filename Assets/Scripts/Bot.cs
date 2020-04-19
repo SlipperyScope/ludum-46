@@ -9,15 +9,20 @@ public class Bot : MonoBehaviour
     // private int pointValue = 100;
     // private bool alive = true;
     private SpriteRenderer spriteR;
+    public Vector3 anchoirPoint;
 
     public Sprite firstLevelSprite;
     public Sprite secondLevelSprite;
     public Sprite thirdLevelSprite;
 
+    private Vector3 moveDirection;
+
+
     void Awake()
     {
         spriteR = gameObject.GetComponent<SpriteRenderer>();
-        this.ChangeScale(botLevel);
+        this.ChangeScale(botLevel * .5f);
+
     }
 
     // Start is called before the first frame update
@@ -32,14 +37,19 @@ public class Bot : MonoBehaviour
         this.MoveBotForward(speed, botLevel);
     }
 
-    private void ChangeScale(int scaler)
+    private void ChangeScale(float scaler)
     {
         transform.localScale = new Vector2(scaler * .5f, scaler);
     }
 
     private void MoveBotForward(float speed, int speedScaler)
     {
-        transform.position += transform.up * (speed * speedScaler) * Time.deltaTime;
+        float step = speed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, anchoirPoint, step);
+
+        // transform.position += (anchoirPoint - transform.position).normalized *.0001f * Time.deltaTime;
+        //transform.position += moveDirection * speed * Time.deltaTime;
+
     }
 
     private void SetBotSprite(int botLevel)
@@ -60,5 +70,4 @@ public class Bot : MonoBehaviour
                 break;
         }
     }
-
 }
