@@ -7,10 +7,10 @@ public class Bot : MonoBehaviour
 {
     public float speed = 1f;
     public int botLevel = 1;
+    public int[] botMass = { 30, 60, 100 };
 
-    
     // private bool alive = true;
-    private SpriteRenderer spriteR;
+
     public Vector3 anchoirPoint;
     public float killDistance;
 
@@ -26,9 +26,9 @@ public class Bot : MonoBehaviour
     public Preset MediumBotFeetCollider;
     public Preset LargeBotFeetCollider;
 
+    private SpriteRenderer spriteR;
     private Vector3 moveDirection;
     private int pointValue;
-
 
     void Awake()
     {
@@ -60,6 +60,7 @@ public class Bot : MonoBehaviour
         if (moveDirection.x < 0) transform.localScale = new Vector3(-1, 1, 1);
 
         pointValue = 100 * botLevel;
+        this.SetBotMass(botLevel);
 
         switch (botLevel)
         {
@@ -85,6 +86,12 @@ public class Bot : MonoBehaviour
                 break;
         }
         Debug.Log(pointValue);
+    }
+
+    private void SetBotMass(int botLevel)
+    {
+
+        GetComponent<Rigidbody2D>().mass = botMass[botLevel-1];
     }
 
     private void ControlBotDeath()
