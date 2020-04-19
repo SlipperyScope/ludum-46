@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3360706863713197341}
   - component: {fileID: 769707018}
   - component: {fileID: 2836809995542580173}
+  - component: {fileID: 368126067}
   m_Layer: 0
   m_Name: SwankyMcDancepants
-  m_TagString: Untagged
+  m_TagString: SwankyMcDancepants
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,3 +116,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterSprite: {fileID: 0}
+--- !u!114 &368126067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3360706863713197340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b762576f42229438f8f0383394bcbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: 0
