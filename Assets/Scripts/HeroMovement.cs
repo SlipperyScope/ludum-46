@@ -34,7 +34,7 @@ public class HeroMovement : MonoBehaviour
         if (canMove)
         {
             rightAxis = Input.GetAxis("Horizontal");
-            upAxis = Input.GetAxis("Vertical") * .75f;
+            upAxis = Input.GetAxis("Vertical") * 9/16;
             UpdateMove();
 
             if (Input.GetMouseButtonDown(0))
