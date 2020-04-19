@@ -9,8 +9,6 @@ public class Bot : MonoBehaviour
     public int botLevel = 1;
     public int[] botMass = { 30, 60, 100 };
 
-    // private bool alive = true;
-
     public Vector3 anchoirPoint;
     public float killDistance;
 
@@ -85,12 +83,10 @@ public class Bot : MonoBehaviour
                 SmallBotFeetCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 break;
         }
-        Debug.Log(pointValue);
     }
 
     private void SetBotMass(int botLevel)
     {
-
         GetComponent<Rigidbody2D>().mass = botMass[botLevel-1];
     }
 
