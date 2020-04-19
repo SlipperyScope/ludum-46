@@ -7,6 +7,7 @@ public class HeroMovement : MonoBehaviour
     public SpriteRenderer sadSprite;
     public float moveSpeed = 2;
     public float thrust = .5f;
+    public float punchRange = 1;
     public bool canMove;
     private float rightAxis;
     private float upAxis;
@@ -34,6 +35,12 @@ public class HeroMovement : MonoBehaviour
             rightAxis = Input.GetAxis("Horizontal");
             upAxis = Input.GetAxis("Vertical") * .75f;
             UpdateMove();
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                //set animation trigger
+                this.Punch();
+            }
         }
     }
 
@@ -58,5 +65,29 @@ public class HeroMovement : MonoBehaviour
 
         Vector2 velocityChange = desiredVelocity * Time.deltaTime;
         transform.position += new Vector3(velocityChange.x, velocityChange.y, 0);
+    }
+
+    void Punch()
+    {
+        var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 rot = Quaternion.LookRotation(transform.position - mousePos, Vector3.forward) * Vector2.up;
+
+       
+        //var offset = transform.right * 1.13f;
+
+        var hits = new HashSet<RaycastHit2D>();
+        foreach (var i in new[] { -1, 0, 1 })
+        {
+            var offset = transform.right * 1.13f * i;
+            foreach (var hit in Physics2D.RaycastAll(transform.position + offset, rot, punchRange))
+            {
+                if (hit.collider.tag != "Player")
+                {
+                    Debug.Log("HITTTTT: " + hit.collider.name);
+                    hits.Add(hit);
+                }
+            }
+        }
+
     }
 }
