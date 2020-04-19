@@ -78,7 +78,6 @@ public class HeroMovement : MonoBehaviour
         {
             if (hit.transform != transform)
             {
-                Debug.Log("Hit");
                 var rb = hit.transform.gameObject.GetComponent<Rigidbody2D>();
                 if (rb)
                 {
