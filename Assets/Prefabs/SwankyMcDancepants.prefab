@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3360706863713197341}
   - component: {fileID: 769707018}
   - component: {fileID: 2836809995542580173}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: SwankyMcDancepants
   m_TagString: Untagged
   m_Icon: {fileID: 0}

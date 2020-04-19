@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.Presets;
 
 public class Bot : MonoBehaviour
 {
@@ -17,6 +18,11 @@ public class Bot : MonoBehaviour
     public Sprite secondLevelSprite;
     public Sprite thirdLevelSprite;
 
+    public Preset firstLevelPreset;
+    public Preset secondLevelPreset;
+    public Preset ThirdLevelPreset;
+
+
     private Vector3 moveDirection;
 
 
@@ -27,9 +33,8 @@ public class Bot : MonoBehaviour
 
     void Start()
     {
-        this.SetBotSprite(botLevel);
-        moveDirection = (anchoirPoint - transform.position).normalized;
-        if (moveDirection.x < 0) spriteR.flipX = true; 
+        this.ConfigureBot(botLevel);
+
     }
 
     void Update()
@@ -44,21 +49,28 @@ public class Bot : MonoBehaviour
         transform.position += moveDirection * step;
     }
 
-    private void SetBotSprite(int botLevel)
+    private void ConfigureBot(int botLevel)
     {
+        moveDirection = (anchoirPoint - transform.position).normalized;
+        if (moveDirection.x < 0) transform.localScale = new Vector3(-1, 1, 1);
+
         switch (botLevel)
         {
             case 1:
                 spriteR.sprite = firstLevelSprite;
+                firstLevelPreset.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 break;
             case 2:
                 spriteR.sprite = secondLevelSprite;
+                secondLevelPreset.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 break;
             case 3:
                 spriteR.sprite = thirdLevelSprite;
+                ThirdLevelPreset.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 break;
             default:
                 spriteR.sprite = firstLevelSprite;
+                firstLevelPreset.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 break;
         }
     }
