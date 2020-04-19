@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b21d25410b496343b14a3fa4812e749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 10
+  MoveSpeed: 2
   YFactor: 0.5625
   SwankySprite: {fileID: 0}
 --- !u!114 &932878687487312798
