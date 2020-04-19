@@ -29,6 +29,7 @@ public class Bot : MonoBehaviour
     void Start()
     {
         this.SetBotSprite(botLevel);
+        moveDirection = (anchoirPoint - transform.position).normalized;
     }
 
     // Update is called once per frame
@@ -45,10 +46,11 @@ public class Bot : MonoBehaviour
     private void MoveBotForward(float speed, int speedScaler)
     {
         float step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, anchoirPoint, step);
+        //transform.position = Vector3.MoveTowards(transform.position, anchoirPoint, step);
 
-        // transform.position += (anchoirPoint - transform.position).normalized *.0001f * Time.deltaTime;
+        //transform.position += (anchoirPoint - transform.position).normalized *1f * Time.deltaTime;
         //transform.position += moveDirection * speed * Time.deltaTime;
+        transform.position += moveDirection * Time.deltaTime;
 
     }
 

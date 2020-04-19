@@ -17,16 +17,16 @@ public class BotSpawner : MonoBehaviour
         Vector3 center = Vector3.zero;
         Vector3[] testVectors = new[] { new Vector3(3f, 0f, 0f), new Vector3(0f, 3f, 0f) };//, new Vector3(-3f, 0f, 0f), new Vector3(0f, -3f, 0f)};
 
-        //for (int i = currentBots; currentBots < maxBots; currentBots++)
-        foreach (Vector3 botSpawnPoint in testVectors)
+        for (int i = currentBots; currentBots < maxBots; currentBots++)
+        //foreach (Vector3 botSpawnPoint in testVectors)
         {
-            // Vector3 botSpawnPoint = RandomPointOnCircleDiameter(center, 3.0f);
-            anchoirPoint = this.getAnchorPoint(center, 1f);
+            Vector3 botSpawnPoint = RandomPointOnCircleDiameter(center, 10.0f);
+            anchoirPoint = this.getAnchorPoint(center, 2f);
 
             Instantiate(circle, anchoirPoint, Quaternion.identity);
 
-            this.PlaceBotsOnSpawnRing(botSpawnPoint, anchoirPoint);
-            Debug.DrawLine(botSpawnPoint, anchoirPoint, Color.red, 100f);
+            this.SpawnBot(botSpawnPoint, anchoirPoint);
+            Debug.DrawLine(botSpawnPoint, anchoirPoint, Color.red, 5f);
         }
 
     }
@@ -37,12 +37,8 @@ public class BotSpawner : MonoBehaviour
 
     }
 
-    void PlaceBotsOnSpawnRing(Vector3 positionOfBot, Vector3 destination)
+    void SpawnBot(Vector3 positionOfBot, Vector3 destination)
     {
-        // Vector3 pos = RandomPointOnCircleDiameter(center, 3.0f);
-
-        // Vector3 vectorToTarget = (destination - positionOfBot);
-
         GameObject bot = Instantiate(botPreFab, positionOfBot, Quaternion.identity);
         bot.GetComponent<Bot>().anchoirPoint = anchoirPoint;
     }
