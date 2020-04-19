@@ -15,9 +15,22 @@ public class SwankAI : MonoBehaviour
     public Boolean IsDancing { get; private set; }
     public Boolean Dance()
     {
-        //IsDancing = true;
+        IsDancing = true;
+        IsWalking = false;
+        gameObject.GetComponentInChildren<Animator>().SetTrigger("Dance");
         return true;
-    } 
+    }
+    #endregion
+
+    #region Walking stuff
+    public Boolean IsWalking { get; private set; }
+    public Boolean Walk()
+    {
+        IsDancing = false;
+        IsWalking = true;
+        gameObject.GetComponentInChildren<Animator>().SetTrigger("Walk");
+        return true;
+    }
     #endregion
 
     void Start()
