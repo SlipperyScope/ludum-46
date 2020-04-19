@@ -9,6 +9,7 @@ public class HeroMovement : MonoBehaviour
     public float thrust = .5f;
     public float punchRange = 1.5f;
     public float punchForce = 100;
+    public bool punchEnabled = true;
     public bool canMove;
     private float rightAxis;
     private float upAxis;
@@ -22,14 +23,14 @@ public class HeroMovement : MonoBehaviour
         changeSpeed = moveSpeed / thrust;
     }
 
-    void Start()
+    private void Start()
     {
         sadSprite = gameObject.GetComponentInChildren<SpriteRenderer>();
         canMove = true;
     }
 
     // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (canMove)
         {
@@ -37,7 +38,7 @@ public class HeroMovement : MonoBehaviour
             upAxis = Input.GetAxis("Vertical") * 9/16;
             UpdateMove();
 
-            if (Input.GetMouseButtonDown(0))
+            if (punchEnabled && Input.GetMouseButtonDown(0))
             {
                 //set animation trigger
                 this.Punch();
@@ -45,7 +46,7 @@ public class HeroMovement : MonoBehaviour
         }
     }
 
-    void UpdateMove()
+    private void UpdateMove()
     {
         Vector2 axisDirection   = new Vector2(rightAxis, upAxis);
         Vector2 currentVelocity = velocity;
@@ -86,5 +87,14 @@ public class HeroMovement : MonoBehaviour
                     hits.Add(hit);
                 }
         }
+
+        StartCoroutine(DisablePunch());
+    }
+
+    IEnumerator DisablePunch()
+    {
+        punchEnabled = false;
+        yield return new WaitForSeconds(2);
+        punchEnabled = true;
     }
 }
