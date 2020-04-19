@@ -6,10 +6,12 @@ public class Bot : MonoBehaviour
 {
     public float speed = 1f;
     public int botLevel = 1;
+
     // private int pointValue = 100;
     // private bool alive = true;
     private SpriteRenderer spriteR;
     public Vector3 anchoirPoint;
+    public float killDistance;
 
     public Sprite firstLevelSprite;
     public Sprite secondLevelSprite;
@@ -21,11 +23,8 @@ public class Bot : MonoBehaviour
     void Awake()
     {
         spriteR = gameObject.GetComponent<SpriteRenderer>();
-        this.ChangeScale(botLevel * .5f);
-
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         this.SetBotSprite(botLevel);
@@ -35,23 +34,14 @@ public class Bot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.MoveBotForward(speed, botLevel);
+        this.MoveBot(speed, botLevel);
+        this.ControlBotDeath();
     }
 
-    private void ChangeScale(float scaler)
+    private void MoveBot(float speed, int levelModifier)
     {
-        transform.localScale = new Vector2(scaler * .5f, scaler);
-    }
-
-    private void MoveBotForward(float speed, int speedScaler)
-    {
-        float step = speed * Time.deltaTime;
-        //transform.position = Vector3.MoveTowards(transform.position, anchoirPoint, step);
-
-        //transform.position += (anchoirPoint - transform.position).normalized *1f * Time.deltaTime;
-        //transform.position += moveDirection * speed * Time.deltaTime;
-        transform.position += moveDirection * Time.deltaTime;
-
+        float step = speed * levelModifier * Time.deltaTime;
+        transform.position += moveDirection * step;
     }
 
     private void SetBotSprite(int botLevel)
@@ -70,6 +60,14 @@ public class Bot : MonoBehaviour
             default:
                 spriteR.sprite = firstLevelSprite;
                 break;
+        }
+    }
+
+    private void ControlBotDeath()
+    {
+        if(Vector3.Distance(Vector3.zero,transform.position) > killDistance)
+        {
+            Destroy(gameObject);
         }
     }
 }

@@ -7,45 +7,53 @@ public class BotSpawner : MonoBehaviour
     public int maxBots = 100;
     private int currentBots = 0;
     public GameObject botPreFab;
-    public GameObject circle;
 
+    public float radiusForAnchorSpawns = 4.0f;
+    public float spawnDelay = .5f;
+
+
+    private Vector3 center = Vector3.zero;
     private Vector3 anchoirPoint;
+    private float killDistance;
+    private float radiusForSpawningEnemies;
 
-    // Start is called before the first frame update
     void Start()
     {
-        Vector3 center = Vector3.zero;
-        Vector3[] testVectors = new[] { new Vector3(3f, 0f, 0f), new Vector3(0f, 3f, 0f) };//, new Vector3(-3f, 0f, 0f), new Vector3(0f, -3f, 0f)};
+        StartCoroutine(spawnEnemies());
 
-        for (int i = currentBots; currentBots < maxBots; currentBots++)
-        //foreach (Vector3 botSpawnPoint in testVectors)
-        {
-            Vector3 botSpawnPoint = RandomPointOnCircleDiameter(center, 10.0f);
-            anchoirPoint = this.getAnchorPoint(center, 2f);
-
-            Instantiate(circle, anchoirPoint, Quaternion.identity);
-
-            this.SpawnBot(botSpawnPoint, anchoirPoint);
-            Debug.DrawLine(botSpawnPoint, anchoirPoint, Color.red, 5f);
-        }
-
+        Camera camera = Camera.main;
+        float halfHeight = camera.orthographicSize;
+        float halfWidth = camera.aspect * halfHeight;
+        radiusForSpawningEnemies = halfWidth + 1f;
+        killDistance = radiusForSpawningEnemies + .01f;
     }
 
-    // Update is called once per frame
     void Update()
     {
-
+        currentBots = GameObject.FindGameObjectsWithTag("bot").Length;
     }
 
-    void SpawnBot(Vector3 positionOfBot, Vector3 destination)
+    IEnumerator spawnEnemies()
     {
-        GameObject bot = Instantiate(botPreFab, positionOfBot, Quaternion.identity);
+        while (true)
+        {
+            if (currentBots < maxBots) this.SpawnBot();
+            yield return new WaitForSeconds(spawnDelay);
+        }
+    }
+
+    void SpawnBot()
+    {
+        Vector3 botSpawnPoint = RandomPointOnCircleDiameter(center, radiusForSpawningEnemies);
+        this.getAnchorPoint(center, radiusForAnchorSpawns);
+        GameObject bot = Instantiate(botPreFab, botSpawnPoint, Quaternion.identity);
         bot.GetComponent<Bot>().anchoirPoint = anchoirPoint;
+        bot.GetComponent<Bot>().killDistance = killDistance;
     }
 
-    Vector3 getAnchorPoint(Vector3 center, float radius)
+    void getAnchorPoint(Vector3 center, float radius)
     {
-       return this.RandomPointOnCircleDiameter(center, radius);
+       anchoirPoint = this.RandomPointOnCircleDiameter(center, radius);
     }
 
     Vector3 RandomPointOnCircleDiameter(Vector3 center, float radius)
