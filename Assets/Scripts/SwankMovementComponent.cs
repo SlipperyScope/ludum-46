@@ -32,4 +32,10 @@ public class SwankMovementComponent : MonoBehaviour
         position += direction * MoveSpeed * Time.deltaTime;
         gameObject.transform.position = position;
     }
+
+    public void StopMoving()
+    {
+        transform.position = Destination;
+        Debug.Log("STOP: " + Destination + " :: " + transform.position);
+    }
 }
