@@ -20,8 +20,6 @@ public class SwankMovementComponent : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log($"Pos: {(Vector2)transform.position} :: des: {Destination}");
-
         var position = (Vector2)transform.position;
         var direction = (Destination - position).normalized;
         direction.y *= YFactor;
