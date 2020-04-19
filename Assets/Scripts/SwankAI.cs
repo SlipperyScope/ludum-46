@@ -1,4 +1,5 @@
 ﻿using BBUnity;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,12 @@ public class SwankAI : MonoBehaviour
     protected UnityBlackboard Blackboard;
 
     public Rect PlayArea;
+
+    public Boolean IsDancing { get; }
+    public Boolean Dance()
+    {
+        return true;
+    }
 
     void Start()
     {
