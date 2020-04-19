@@ -10,7 +10,7 @@ using Math;
 
 namespace BBCore.Conditions
 {
-    
+    [Condition("DED/NotAtLocation")]
     public class NotAtLocation : ConditionBase
     {
         [InParam("Entity")]
