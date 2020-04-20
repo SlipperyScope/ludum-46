@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 086b1788a6b8a93438f6244901f000e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1590997799501604645
+    second: SwankSway_0
+  - first:
+      213: -3114053336564787282
+    second: SwankSway_1
+  - first:
+      213: -7789882295760133019
+    second: SwankSway_2
+  - first:
+      213: 5595106026185643430
+    second: SwankSway_3
+  - first:
+      213: 6639715734182576101
+    second: SwankSway_4
+  - first:
+      213: 8792430430352286861
+    second: SwankSway_5
+  - first:
+      213: 4211430439093082375
+    second: SwankSway_6
+  - first:
+      213: 9209956709336358211
+    second: SwankSway_7
+  - first:
+      213: -2696547847404238011
+    second: SwankSway_8
+  - first:
+      213: 8831546189362930987
+    second: SwankSway_9
+  - first:
+      213: 3579537430127358023
+    second: SwankSway_10
+  - first:
+      213: -7383737835610638069
+    second: SwankSway_11
+  - first:
+      213: -6731785833620228581
+    second: SwankSway_12
+  - first:
+      213: -5173150851450103972
+    second: SwankSway_13
+  - first:
+      213: -8788859031323456301
+    second: SwankSway_14
+  - first:
+      213: -5843960564423623839
+    second: SwankSway_15
+  - first:
+      213: -8273671303713784897
+    second: SwankSway_16
+  - first:
+      213: 6033329805553937646
+    second: SwankSway_17
+  - first:
+      213: 9113784364888539690
+    second: SwankSway_18
+  - first:
+      213: -8943180701067537289
+    second: SwankSway_19
+  - first:
+      213: -3545732183049211904
+    second: SwankSway_20
+  - first:
+      213: -1676735897145824767
+    second: SwankSway_21
+  - first:
+      213: 3223758363311632121
+    second: SwankSway_22
+  - first:
+      213: 5839176020061635373
+    second: SwankSway_23
+  - first:
+      213: 3133568399285922065
+    second: SwankSway_24
+  - first:
+      213: -6886967413208304275
+    second: SwankSway_25
+  - first:
+      213: 365520992484367887
+    second: SwankSway_26
+  - first:
+      213: 4064269603212033357
+    second: SwankSway_27
+  - first:
+      213: 1856516468140418968
+    second: SwankSway_28
+  - first:
+      213: 1312954921967951740
+    second: SwankSway_29
+  - first:
+      213: -5043966085674254463
+    second: SwankSway_30
+  - first:
+      213: 6719105995064015103
+    second: SwankSway_31
+  - first:
+      213: -1269554115941779455
+    second: SwankSway_32
+  - first:
+      213: -1008273903068634252
+    second: SwankSway_33
+  - first:
+      213: 1860102068078226175
+    second: SwankSway_34
+  - first:
+      213: 1880924177465284716
+    second: SwankSway_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 199
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwankSway_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1671
+        width: 244
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8574a4ee3abe9e0800000000000000
+      internalID: -1590997799501604645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1671
+        width: 240
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea79f664df8a8c4d0800000000000000
+      internalID: -3114053336564787282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1667
+        width: 242
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564ec171357c4e390800000000000000
+      internalID: -7789882295760133019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_3
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1667
+        width: 236
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a55173694fc5ad40800000000000000
+      internalID: 5595106026185643430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_4
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1667
+        width: 242
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef36811842052c50800000000000000
+      internalID: 6639715734182576101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_5
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1667
+        width: 239
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84ab7164ecf40a70800000000000000
+      internalID: 8792430430352286861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_6
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1667
+        width: 246
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7091966dba1027a30800000000000000
+      internalID: 4211430439093082375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_7
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 1667
+        width: 248
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d18b8a4d650df70800000000000000
+      internalID: 9209956709336358211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_8
+      rect:
+        serializedVersion: 2
+        x: 2871
+        y: 1667
+        width: 278
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b40ab0500f39ad0800000000000000
+      internalID: -2696547847404238011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_9
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 1667
+        width: 278
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25ae6ab774ff8a70800000000000000
+      internalID: 8831546189362930987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_10
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1665
+        width: 240
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740b4f6d3521da130800000000000000
+      internalID: 3579537430127358023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1230
+        width: 240
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09f0d92f81b78990800000000000000
+      internalID: -7383737835610638069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_12
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1235
+        width: 230
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b163f0b6374e392a0800000000000000
+      internalID: -6731785833620228581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_13
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1235
+        width: 234
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c579ec985b64538b0800000000000000
+      internalID: -5173150851450103972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_14
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1233
+        width: 224
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc4bf0c643b70680800000000000000
+      internalID: -8788859031323456301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_15
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1235
+        width: 226
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b732c44d416eea0800000000000000
+      internalID: -5843960564423623839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_16
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 1235
+        width: 224
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbfbc9f8c30e2d80800000000000000
+      internalID: -8273671303713784897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_17
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 1233
+        width: 224
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeca1d00e71bab350800000000000000
+      internalID: 6033329805553937646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_18
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 1233
+        width: 224
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22c0bcc79aaa7e70800000000000000
+      internalID: 9113784364888539690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_19
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 1221
+        width: 224
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7749dbe098073e380800000000000000
+      internalID: -8943180701067537289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_20
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 1221
+        width: 224
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0007ea89d570bcec0800000000000000
+      internalID: -3545732183049211904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_21
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 1219
+        width: 228
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a2a74d5990bb8e0800000000000000
+      internalID: -1676735897145824767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 785
+        width: 230
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe62e6b6271dbc20800000000000000
+      internalID: 3223758363311632121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_23
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 787
+        width: 230
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23c0c827abe80150800000000000000
+      internalID: 5839176020061635373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_24
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 787
+        width: 234
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119a3d65bdbac7b20800000000000000
+      internalID: 3133568399285922065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_25
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 787
+        width: 244
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65370c50a39c60a0800000000000000
+      internalID: -6886967413208304275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_26
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 789
+        width: 254
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e9af2f767921500800000000000000
+      internalID: 365520992484367887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_27
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 789
+        width: 248
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dfed2bbaf276830800000000000000
+      internalID: 4064269603212033357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_28
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 785
+        width: 230
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8972c2b34eba3c910800000000000000
+      internalID: 1856516468140418968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_29
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 785
+        width: 226
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f10029b8d883210800000000000000
+      internalID: 1312954921967951740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_30
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 785
+        width: 224
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fb444b19b300ab0800000000000000
+      internalID: -5043966085674254463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_31
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 791
+        width: 224
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8fcfb9d4f0f3d50800000000000000
+      internalID: 6719105995064015103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_32
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 791
+        width: 232
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108b7280243a16ee0800000000000000
+      internalID: -1269554115941779455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 363
+        width: 230
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4732c4b2a34e102f0800000000000000
+      internalID: -1008273903068634252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_34
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 363
+        width: 241
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaa5c5c9f860d910800000000000000
+      internalID: 1860102068078226175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankSway_35
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 369
+        width: 244
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c681347e2926a1a10800000000000000
+      internalID: 1880924177465284716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
