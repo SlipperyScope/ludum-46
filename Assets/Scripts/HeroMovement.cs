@@ -62,17 +62,20 @@ public class HeroMovement : MonoBehaviour
         Vector2 rot = Quaternion.LookRotation(transform.position - mousePos, Vector3.forward) * Vector2.up;
 
         var hits = new HashSet<RaycastHit2D>();
-        foreach (var hit in Physics2D.RaycastAll(transform.position, rot, punchRange))
+        foreach (var offset in new[] { transform.right * 0f, transform.right * .25f, transform.up * .25f })
         {
-            if (hit.transform != transform)
+            foreach (var hit in Physics2D.RaycastAll(transform.position + offset, rot, punchRange))
             {
-                var rb = hit.transform.gameObject.GetComponent<Rigidbody2D>();
-                if (rb)
+                if (hit.transform != transform)
                 {
-                    rb.AddForce(new Vector2(rot.x, rot.y) * punchForce, ForceMode2D.Impulse);
-                }
-                    hits.Add(hit);
-                }
+                    var rb = hit.transform.gameObject.GetComponent<Rigidbody2D>();
+                    if (rb)
+                    {
+                        rb.AddForce(new Vector2(rot.x, rot.y) * punchForce, ForceMode2D.Impulse);
+                    }
+                        hits.Add(hit);
+                    }
+            }
         }
 
         StartCoroutine(DisablePunch());
