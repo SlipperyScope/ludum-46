@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerStat : MonoBehaviour
 {
     [SerializeField]
-    private float playerScore;
+    private int playerScore;
 
     // Start is called before the first frame update
     void Start()
@@ -13,12 +13,12 @@ public class PlayerStat : MonoBehaviour
         playerScore = 0;
     }
 
-    public void AdjustScore(float points)
+    public void AdjustScore(int points)
     {
         playerScore += points;
     }
 
-    public float getScore()
+    public int getScore()
     {
         return playerScore;
     }

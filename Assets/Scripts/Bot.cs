@@ -45,7 +45,7 @@ public class Bot : MonoBehaviour
         this.ControlBotDeath();
     }
 
-    public float GetPointValue()
+    public int GetPointValue()
     {
         return pointValue;
     }

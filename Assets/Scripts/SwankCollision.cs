@@ -36,7 +36,7 @@ public class SwankCollision : MonoBehaviour
 
     void KillBot(Collider2D collision)
     {
-        float pointValue = collision.gameObject.GetComponent<Bot>().GetPointValue();
+        int pointValue = collision.gameObject.GetComponent<Bot>().GetPointValue();
         GameObject.FindGameObjectWithTag("SwankyMcDancepants").GetComponent<PlayerStat>().AdjustScore(pointValue);
         Destroy(collision.gameObject);
     }
