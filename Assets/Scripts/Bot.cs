@@ -9,7 +9,7 @@ public class Bot : MonoBehaviour
 
     private SpriteRenderer SpriteRenderer;
     private Vector3 moveDirection;
-    private float speed;
+    private float[] speed;
     private int botLevel;
     private string[] BotTags = new string[3] { "SmallBot", "MediumBot", "LargeBot" };
     private Vector3 anchoirPoint;
@@ -38,7 +38,7 @@ public class Bot : MonoBehaviour
         return pointValues[botLevel-1];
     }
 
-    public void SetBotSpeed(float setSpeed)
+    public void SetBotSpeed(float[] setSpeed)
     {
         speed = setSpeed;
     }
@@ -63,10 +63,9 @@ public class Bot : MonoBehaviour
     {
         pointValues = points;
     }
-
     private void MoveBot()
     {
-        float step = speed * botLevel * Time.deltaTime;
+        float step = speed[botLevel-1] * Time.deltaTime;
         transform.position += moveDirection * step;
     }
 
