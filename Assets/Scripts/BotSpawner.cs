@@ -32,7 +32,6 @@ public class BotSpawner : MonoBehaviour
     void Update()
     {
         currentBots = GameObject.FindGameObjectsWithTag("bot").Length;
-        //TODO: get current score and use it in the calculation for bot level
     }
 
     IEnumerator spawnEnemies()
@@ -72,17 +71,15 @@ public class BotSpawner : MonoBehaviour
 
     int PickBotLevel()
     {
-        Debug.Log($"first, {enemiesChance[0]}, second {enemiesChance[1]}, third {enemiesChance[2]}");
-        int random = Random.Range(0, 100); // draw a number between 0 and 99
-        int lowLim;    // lowLim and hiLim are automatically set for each enemy
+        int random = Random.Range(0, 100);
+        int lowLim;
         int hiLim = 0;
         for (int i = 0; i < enemiesChance.Length; i++)
         {
-            lowLim = hiLim; // set low limit...
-            hiLim += enemiesChance[i]; // and high limit
+            lowLim = hiLim;
+            hiLim += enemiesChance[i];
             if (random >= lowLim && random < hiLim)
-            { // instantiate it!
-                Debug.Log($"Bot Level to spawn {i+1}");
+            {
                 return i + 1;
             }
         }
@@ -105,6 +102,4 @@ public class BotSpawner : MonoBehaviour
     {
         return (numberToCheck >= bottom && numberToCheck < top);
     }
-
-
 }
