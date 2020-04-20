@@ -10,7 +10,14 @@ public class BackdropStopper : MonoBehaviour
         {
             if (collision.tag == "SmallBot" || collision.tag == "MediumBot" || collision.tag == "LargeBot")
             {
-                collision.gameObject.GetComponent<Bot>().ExplodeAndDie();
+                var y = this.gameObject.GetComponent<BoxCollider2D>().bounds.min.y;
+                if (collision.transform.position.y > y)
+                {
+                    Destroy(collision.gameObject);
+                } else
+                {
+                    collision.gameObject.GetComponent<Bot>().ExplodeAndDie();
+                }
             }
         }
     }
