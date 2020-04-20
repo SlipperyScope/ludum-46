@@ -123,19 +123,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: e6ef72571671d184690069fa4cee0901, type: 3}
   - {fileID: 21300000, guid: fb86e03814d2e7142bd3a7299509e9e9, type: 3}
   - {fileID: 21300000, guid: 33c836a5d8ce9c44f9dcf9561c6fd41c, type: 3}
-  BotColliders:
-  - {fileID: 2655988077585873504, guid: c15ce92acf4eaf241bbb504d216afe89, type: 2}
-  - {fileID: 2655988077585873504, guid: 6c037c8005f1e2a40be90d4a724141bb, type: 2}
-  - {fileID: 2655988077585873504, guid: 6afbec1668e2c344ea7dfccc594fd010, type: 2}
-  FeetColliders:
-  - {fileID: 2655988077585873504, guid: 613acfe157d137944a3147664fb192d9, type: 2}
-  - {fileID: 2655988077585873504, guid: d45ee543f27b13d438997a3bfc363609, type: 2}
-  - {fileID: 2655988077585873504, guid: cb6169bbe8268fb448ab28539aff3ad5, type: 2}
-  speed:
-  - 1
-  - 2
-  - 3
-  anchoirPoint: {x: 3.9758825, y: -0.43858734, z: 0}
+  ExplosionPrefab: {fileID: 8803385791005298297, guid: 41e343a8cdcc0714eba97465abb4db81,
+    type: 3}
 --- !u!114 &3598138718241825856
 MonoBehaviour:
   m_ObjectHideFlags: 0
