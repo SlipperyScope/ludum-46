@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ScorePrinter : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
     public Text scoreText;
     private PlayerStat ps;
@@ -12,10 +12,6 @@ public class ScorePrinter : MonoBehaviour
     {
         ps = GameObject.FindObjectOfType<PlayerStat>();
         scoreText.text = "" + ps.getScore();
-    }
-
-    void Update()
-    {
-        scoreText.text = "" + ps.getScore();
+        Destroy(ps.gameObject);
     }
 }
