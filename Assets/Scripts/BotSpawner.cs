@@ -7,8 +7,7 @@ public class BotSpawner : MonoBehaviour
 {
     public int maxBots = 1;
     private int currentBots = 0;
-    public GameObject botPreFab;
-
+    public GameObject[] botPreFabs;
     
     public float spawnDelay = .5f;
     private int[] enemiesChance = {100,0,0};
@@ -67,14 +66,15 @@ public class BotSpawner : MonoBehaviour
 
     void SpawnBot()
     {
+        int botLvl = this.GetBotLevel();
         this.setEnemiesChance();
         Vector3 botSpawnPoint = RandomPointOnCircleDiameter(center, radiusForSpawningEnemies);
         this.getAnchorPoint(center, radiusForAnchorSpawns);
-        GameObject bot = Instantiate(botPreFab, botSpawnPoint, Quaternion.identity);
+        GameObject bot = Instantiate(botPreFabs[botLvl-1], botSpawnPoint, Quaternion.identity);
 
         bot.GetComponent<Bot>().setAnchoirPoint(anchoirPoint);
         bot.GetComponent<Bot>().setDeathDistance(killDistance);
-        bot.GetComponent<Bot>().setBotLevel(this.GetBotLevel());
+        bot.GetComponent<Bot>().setBotLevel(botLvl);
         bot.GetComponent<Bot>().SetBotSpeed(botSpeed);
         bot.GetComponent<Bot>().setBotMass(botMass);
         bot.GetComponent<Bot>().setBotPointValues(BotPointValues);

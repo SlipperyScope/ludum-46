@@ -1,13 +1,9 @@
 ﻿using UnityEngine;
-using UnityEditor.Presets;
 
 public class Bot : MonoBehaviour
 {
     public Sprite[] BotSprites;
-    public Preset[] BotColliders;
-    public Preset[] FeetColliders;
     public GameObject ExplosionPrefab;
-
     private SpriteRenderer SpriteRenderer;
     private Vector3 moveDirection;
     private float[] speed;
@@ -102,8 +98,6 @@ public class Bot : MonoBehaviour
     private void BotProps(int botLevel)
     {
         SpriteRenderer.sprite = BotSprites[botLevel - 1];
-        BotColliders[botLevel - 1].ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-        FeetColliders[botLevel - 1].ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
         GetComponent<Rigidbody2D>().mass = botMass[botLevel - 1];
         transform.gameObject.tag = BotTags[botLevel - 1];
 
