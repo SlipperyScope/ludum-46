@@ -6,6 +6,7 @@ public class Bot : MonoBehaviour
     public Sprite[] BotSprites;
     public Preset[] BotColliders;
     public Preset[] FeetColliders;
+    public GameObject ExplosionPrefab;
 
     private SpriteRenderer SpriteRenderer;
     private Vector3 moveDirection;
@@ -63,6 +64,13 @@ public class Bot : MonoBehaviour
     {
         pointValues = points;
     }
+
+    public void ExplodeAndDie()
+    {
+        var explosion = Instantiate(ExplosionPrefab, transform.position, transform.rotation);
+        Destroy(gameObject);
+    }
+
     private void MoveBot()
     {
         float step = speed[botLevel-1] * Time.deltaTime;
@@ -105,7 +113,8 @@ public class Bot : MonoBehaviour
     {
         if(Vector3.Distance(Vector3.zero,transform.position) > killDistance)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            this.ExplodeAndDie();
         }
     }
 }
