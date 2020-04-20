@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 2774986243652721185}
   - component: {fileID: 932878687487312798}
   - component: {fileID: 7327064233115194979}
+  - component: {fileID: 5523749116487392033}
   m_Layer: 10
   m_Name: SwankyMcDancepants
   m_TagString: SwankyMcDancepants
@@ -241,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b21d25410b496343b14a3fa4812e749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 10
+  MoveSpeed: 2
   YFactor: 0.5625
   SwankySprite: {fileID: 0}
 --- !u!114 &932878687487312798
@@ -257,12 +258,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Behavior: {fileID: 7327064233115194979}
-  PlayArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
 --- !u!114 &7327064233115194979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,7 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxTasksPerTick: 500
-  behavior: {fileID: 11400000, guid: 511854132cf804d47b6464b0a68d984a, type: 2}
+  behavior: {fileID: 11400000, guid: f2404a859ea23ea45b689e9ae22e2bb6, type: 2}
   paused: 0
   restartWhenFinished: 0
   blackboard:
@@ -287,11 +282,15 @@ MonoBehaviour:
     boolParamsNames: []
     boolParamsLostDefaultValue: 
     floatParams:
+    - 0.5
     - 0.5625
     - 1
+    - 4
     floatParamsNames:
     - Threshold
     - YRatio
+    - PerceptionDistance
+    - DanceTime
     floatParamsLostDefaultValue: 
     stringParams: []
     stringParamsNames: []
@@ -341,3 +340,15 @@ MonoBehaviour:
     quaternionParams: []
     quaternionParamsNames: []
     quaternionParamsLostDefaultValue: 
+--- !u!114 &5523749116487392033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3360706863713197340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45dfac85d38c343459c888e25b72b25a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

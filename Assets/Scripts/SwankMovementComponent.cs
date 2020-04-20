@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class SwankMovementComponent : MonoBehaviour
 {
-    public Single MoveSpeed = 3f;
+    public Single MoveSpeed = 2f;
 
     public Single YFactor = 9f/16f;
 
@@ -26,7 +26,7 @@ public class SwankMovementComponent : MonoBehaviour
 
         if (Mathf.Abs(direction.x) > 0)
         {
-            SwankySprite.flipX = direction.x < 0;
+            SwankySprite.flipX = direction.x > 0;
         }
 
         position += direction * MoveSpeed * Time.deltaTime;

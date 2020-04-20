@@ -9,7 +9,7 @@ public class SwankAI : MonoBehaviour
     public BehaviorExecutor Behavior;
     protected UnityBlackboard Blackboard;
 
-    public Rect PlayArea;
+    //public Rect PlayArea;
 
     #region Dancing stuff
     public Boolean IsDancing { get; private set; }
@@ -35,11 +35,10 @@ public class SwankAI : MonoBehaviour
 
     void Start()
     {
-        //Debug.Log($"{nameof(Behavior.blackboard)}: {Behavior.blackboard}");
-        Blackboard = Behavior.blackboard;
-        Blackboard.SetBehaviorParam("Entity", gameObject);
-        Blackboard.SetBehaviorParam("AI", this);
-        Blackboard.SetBehaviorParam("Destination", (Vector2)transform.position);
-        Blackboard.SetBehaviorParam("Bounds", PlayArea);
+        //Blackboard = Behavior.blackboard;
+        //Blackboard.SetBehaviorParam("Entity", gameObject);
+        //Blackboard.SetBehaviorParam("AI", this);
+        //Blackboard.SetBehaviorParam("Destination", (Vector2)transform.position);
+        //Blackboard.SetBehaviorParam("Bounds", PlayArea);
     }
 }

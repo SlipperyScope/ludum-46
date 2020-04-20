@@ -39,5 +39,19 @@ namespace Math
         }
 
         private static Single Square(Single n) => Mathf.Pow(n, 2f);
+
+
+    }
+
+    public static class Extensions
+    {
+        public static Vector2 Rotate(this Vector2 Vector, float Degrees)
+        {
+            var Rad = Degrees * Mathf.Deg2Rad;
+            return new Vector2(
+                Vector.x * Mathf.Cos(Rad) - Vector.y * Mathf.Sin(Rad),
+                Vector.x * Mathf.Sin(Rad) + Vector.y * Mathf.Cos(Rad)
+            );
+        }
     }
 }

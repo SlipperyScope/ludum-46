@@ -5,22 +5,19 @@ using UnityEngine;
 public class HeroMovement : MonoBehaviour
 {
     public SpriteRenderer sadSprite;
-    public float moveSpeed = 2;
-    public float thrust = .5f;
+    public float moveSpeed = 4;
     public float punchRange = 1.5f;
     public float punchForce = 100;
     public bool punchEnabled = true;
     public bool canMove;
     private float rightAxis;
     private float upAxis;
-    private float changeSpeed;
     private Vector2 velocity;
 
 
     protected void Awake()
     {
         velocity = Vector2.zero;
-        changeSpeed = moveSpeed / thrust;
     }
 
     private void Start()
@@ -48,25 +45,15 @@ public class HeroMovement : MonoBehaviour
 
     private void UpdateMove()
     {
-        Vector2 axisDirection   = new Vector2(rightAxis, upAxis);
-        Vector2 currentVelocity = velocity;
-        Vector2 desiredVelocity = axisDirection * moveSpeed;
-
-        if (axisDirection == Vector2.zero)
-        {
-            desiredVelocity = Vector2.zero;
-        }
+        Vector2 direction = new Vector2(rightAxis, upAxis);
 
         if (Mathf.Abs(rightAxis) > 0)
         {
             sadSprite.flipX = rightAxis < 0;
         }
 
-        float velociyBoost = 2f - Vector2.Dot(currentVelocity.normalized, desiredVelocity.normalized);
-        currentVelocity = Vector2.MoveTowards(currentVelocity, desiredVelocity, changeSpeed);
-
-        Vector2 velocityChange = desiredVelocity * Time.deltaTime;
-        transform.position += new Vector3(velocityChange.x, velocityChange.y, 0);
+        var position = (Vector2)transform.position + direction * moveSpeed * Time.deltaTime;
+        transform.position = position;
     }
 
     void Punch()
@@ -75,17 +62,20 @@ public class HeroMovement : MonoBehaviour
         Vector2 rot = Quaternion.LookRotation(transform.position - mousePos, Vector3.forward) * Vector2.up;
 
         var hits = new HashSet<RaycastHit2D>();
-        foreach (var hit in Physics2D.RaycastAll(transform.position, rot, punchRange))
+        foreach (var offset in new[] { transform.right * 0f, transform.right * .25f, transform.up * .25f })
         {
-            if (hit.transform != transform)
+            foreach (var hit in Physics2D.RaycastAll(transform.position + offset, rot, punchRange))
             {
-                var rb = hit.transform.gameObject.GetComponent<Rigidbody2D>();
-                if (rb)
+                if (hit.transform != transform)
                 {
-                    rb.AddForce(new Vector2(rot.x, rot.y) * punchForce, ForceMode2D.Impulse);
-                }
-                    hits.Add(hit);
-                }
+                    var rb = hit.transform.gameObject.GetComponent<Rigidbody2D>();
+                    if (rb)
+                    {
+                        rb.AddForce(new Vector2(rot.x, rot.y) * punchForce, ForceMode2D.Impulse);
+                    }
+                        hits.Add(hit);
+                    }
+            }
         }
 
         StartCoroutine(DisablePunch());
