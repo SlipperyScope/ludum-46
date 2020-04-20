@@ -1,42 +1,30 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEditor.Presets;
 
 public class Bot : MonoBehaviour
 {
-    public float speed = 1f;
-    public int botLevel = 1;
-    public int[] botMass = { 30, 60, 100 };
+    public Sprite[] BotSprites;
+    public Preset[] BotColliders;
+    public Preset[] FeetColliders;
 
-    public Vector3 anchoirPoint;
-    public float killDistance;
-
-    public Sprite firstLevelSprite;
-    public Sprite secondLevelSprite;
-    public Sprite thirdLevelSprite;
-
-    public Preset SmallBotCollider;
-    public Preset MediumBotCollider;
-    public Preset LargeBotCollider;
-
-    public Preset SmallBotFeetCollider;
-    public Preset MediumBotFeetCollider;
-    public Preset LargeBotFeetCollider;
-
-    private SpriteRenderer spriteR;
+    private SpriteRenderer SpriteRenderer;
     private Vector3 moveDirection;
-    private int pointValue;
+    private float speed;
+    private int botLevel;
+    private string[] BotTags = new string[3] { "SmallBot", "MediumBot", "LargeBot" };
+    private Vector3 anchoirPoint;
+    private float killDistance;
+    private int[] botMass;
+    private int[] pointValues;
 
     void Awake()
     {
-        spriteR = gameObject.GetComponent<SpriteRenderer>();
+        SpriteRenderer = gameObject.GetComponent<SpriteRenderer>();
     }
 
     void Start()
     {
         this.ConfigureBot(botLevel);
-
     }
 
     void Update()
@@ -47,7 +35,33 @@ public class Bot : MonoBehaviour
 
     public int GetPointValue()
     {
-        return pointValue;
+        return pointValues[botLevel-1];
+    }
+
+    public void SetBotSpeed(float setSpeed)
+    {
+        speed = setSpeed;
+    }
+    public void setBotLevel(int setLevel)
+    {
+        botLevel = setLevel;
+    }
+    public void setAnchoirPoint(Vector3 setPoint)
+    {
+        anchoirPoint = setPoint;
+    }
+    public void setDeathDistance(float setDistance)
+    {
+        killDistance = setDistance;
+    }
+
+    public void setBotMass(int[] setMass)
+    {
+        botMass = setMass;
+    }
+    public void setBotPointValues(int[] points)
+    {
+        pointValues = points;
     }
 
     private void MoveBot()
@@ -58,45 +72,34 @@ public class Bot : MonoBehaviour
 
     private void ConfigureBot(int botLevel)
     {
-        Destroy(GetComponent<PolygonCollider2D>());
         moveDirection = (anchoirPoint - transform.position).normalized;
         if (moveDirection.x < 0) transform.localScale = new Vector3(-1, 1, 1);
-
-        pointValue = 100 * botLevel;
-        this.SetBotMass(botLevel);
 
         switch (botLevel)
         {
             case 1:
-                spriteR.sprite = firstLevelSprite;
-                SmallBotCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-                SmallBotFeetCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-                transform.gameObject.tag = "SmallBot";
+                this.BotProps(botLevel);
                 break;
             case 2:
-                spriteR.sprite = secondLevelSprite;
-                MediumBotCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-                MediumBotFeetCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-                transform.gameObject.tag = "MediumBot";
+                this.BotProps(botLevel);
                 break;
             case 3:
-                spriteR.sprite = thirdLevelSprite;
-                LargeBotCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-                LargeBotFeetCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-                transform.gameObject.tag = "LargeBot";
+                this.BotProps(botLevel);
                 break;
             default:
-                spriteR.sprite = firstLevelSprite;
-                SmallBotCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-                SmallBotFeetCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-                transform.gameObject.tag = "SmallBot";
+                this.BotProps(1);
                 break;
         }
     }
 
-    private void SetBotMass(int botLevel)
+    private void BotProps(int botLevel)
     {
-        GetComponent<Rigidbody2D>().mass = botMass[botLevel-1];
+        SpriteRenderer.sprite = BotSprites[botLevel - 1];
+        BotColliders[botLevel - 1].ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+        FeetColliders[botLevel - 1].ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+        GetComponent<Rigidbody2D>().mass = botMass[botLevel - 1];
+        transform.gameObject.tag = BotTags[botLevel - 1];
+
     }
 
     private void ControlBotDeath()
