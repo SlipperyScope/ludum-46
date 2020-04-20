@@ -54,11 +54,10 @@ namespace BBUnity.Actions
             var Direction = ((Vector2)Entity.transform.position - (Vector2)Closest.transform.position).normalized;
             if (ClosestIsFood == true)
             {
-                Debug.Log("mmm");
+                //Debug.Log("mmm");
                 Direction *= -1f;
             }
-
-            var Destination = (Vector2)Entity.transform.position + (Direction.Rotate(Rotation) * (PerceptionDistance + Threshold));
+            var Destination = (Vector2)Entity.transform.position + (Direction.Rotate(Rotation) * 1);
 
             Debug.DrawLine(Entity.transform.position, Destination, new Color(255, 0, 255), 5f);
 

@@ -46,8 +46,15 @@ MonoBehaviour:
   maxBots: 25
   botPreFab: {fileID: 5020175174638884605, guid: 221d57cd28e938a4681a3ae3a927ef88,
     type: 3}
+  botPreFabs:
+  - {fileID: 5797352375178870178, guid: 88cfca9a5a8ed4340b3fd452e74dcc93, type: 3}
+  - {fileID: 2616819817790565304, guid: af0dc2a2a78eab947ab974c7de3b82b5, type: 3}
+  - {fileID: 6482498067117718761, guid: 6fbb073b2a179d74abafcf47b8ed47ac, type: 3}
   spawnDelay: 1
   ScoreNeededToKillMediumBot: 2000
-  BaseBotSpeed: 1
   botMass: 1e0000003c00000064000000
+  botSpeed:
+  - 1
+  - 2
+  - 3
   BotPointValues: 3200000096000000c8000000

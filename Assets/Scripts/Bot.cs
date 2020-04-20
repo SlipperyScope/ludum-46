@@ -1,12 +1,9 @@
 ﻿using UnityEngine;
-using UnityEditor.Presets;
 
 public class Bot : MonoBehaviour
 {
     public Sprite[] BotSprites;
-    public Preset[] BotColliders;
-    public Preset[] FeetColliders;
-
+    public GameObject ExplosionPrefab;
     private SpriteRenderer SpriteRenderer;
     private Vector3 moveDirection;
     private float[] speed;
@@ -63,6 +60,13 @@ public class Bot : MonoBehaviour
     {
         pointValues = points;
     }
+
+    public void ExplodeAndDie()
+    {
+        var explosion = Instantiate(ExplosionPrefab, transform.position, transform.rotation);
+        Destroy(gameObject);
+    }
+
     private void MoveBot()
     {
         float step = speed[botLevel-1] * Time.deltaTime;
@@ -94,8 +98,6 @@ public class Bot : MonoBehaviour
     private void BotProps(int botLevel)
     {
         SpriteRenderer.sprite = BotSprites[botLevel - 1];
-        BotColliders[botLevel - 1].ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
-        FeetColliders[botLevel - 1].ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
         GetComponent<Rigidbody2D>().mass = botMass[botLevel - 1];
         transform.gameObject.tag = BotTags[botLevel - 1];
 
@@ -105,7 +107,8 @@ public class Bot : MonoBehaviour
     {
         if(Vector3.Distance(Vector3.zero,transform.position) > killDistance)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            this.ExplodeAndDie();
         }
     }
 }
