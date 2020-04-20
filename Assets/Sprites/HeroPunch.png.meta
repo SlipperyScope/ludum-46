@@ -1,0 +1,1532 @@
+fileFormatVersion: 2
+guid: 2b7d45ae604ad3d4cb2797e0ebf2836b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -644933482875049763
+    second: HeroPunch_0
+  - first:
+      213: -3418320517488927281
+    second: HeroPunch_1
+  - first:
+      213: 4231838017988149878
+    second: HeroPunch_2
+  - first:
+      213: 4694292357390395634
+    second: HeroPunch_3
+  - first:
+      213: -4753161372330633545
+    second: HeroPunch_4
+  - first:
+      213: -2253211289154502280
+    second: HeroPunch_5
+  - first:
+      213: -9059808434408521889
+    second: HeroPunch_6
+  - first:
+      213: -8999599932392112982
+    second: HeroPunch_7
+  - first:
+      213: 3058446506865945414
+    second: HeroPunch_8
+  - first:
+      213: -3039478242864809562
+    second: HeroPunch_9
+  - first:
+      213: 1275006927709972427
+    second: HeroPunch_10
+  - first:
+      213: -8378189206483701774
+    second: HeroPunch_11
+  - first:
+      213: -2016033401745864710
+    second: HeroPunch_12
+  - first:
+      213: -4327881229945978856
+    second: HeroPunch_13
+  - first:
+      213: 2608879850524580103
+    second: HeroPunch_14
+  - first:
+      213: -3996410097672740912
+    second: HeroPunch_15
+  - first:
+      213: 5334264380799062072
+    second: HeroPunch_16
+  - first:
+      213: -3980019472020860170
+    second: HeroPunch_17
+  - first:
+      213: -8326883453132310652
+    second: HeroPunch_18
+  - first:
+      213: 3585324099580145984
+    second: HeroPunch_19
+  - first:
+      213: 7599179025317225356
+    second: HeroPunch_20
+  - first:
+      213: 2445930483259795010
+    second: HeroPunch_21
+  - first:
+      213: 4452516747840447211
+    second: HeroPunch_22
+  - first:
+      213: -121429567529383653
+    second: HeroPunch_23
+  - first:
+      213: -8630195114734064681
+    second: HeroPunch_24
+  - first:
+      213: -8810414072376413948
+    second: HeroPunch_25
+  - first:
+      213: 5413257010845381251
+    second: HeroPunch_26
+  - first:
+      213: -1003786854344371340
+    second: HeroPunch_27
+  - first:
+      213: 4118013120090497702
+    second: HeroPunch_28
+  - first:
+      213: -340688018902378432
+    second: HeroPunch_29
+  - first:
+      213: -2483385463263235813
+    second: HeroPunch_30
+  - first:
+      213: 131780797475434015
+    second: HeroPunch_31
+  - first:
+      213: -3279126704367559961
+    second: HeroPunch_32
+  - first:
+      213: 3559004647629121073
+    second: HeroPunch_33
+  - first:
+      213: 1275406620341272718
+    second: HeroPunch_34
+  - first:
+      213: 6993955241930132038
+    second: HeroPunch_35
+  - first:
+      213: -5022390599597026689
+    second: HeroPunch_36
+  - first:
+      213: 2156445136094569402
+    second: HeroPunch_37
+  - first:
+      213: 5136751379476245916
+    second: HeroPunch_38
+  - first:
+      213: -1480660806460939164
+    second: HeroPunch_39
+  - first:
+      213: -219911166501619983
+    second: HeroPunch_40
+  - first:
+      213: 2957315221433892986
+    second: HeroPunch_41
+  - first:
+      213: 7534711930750133229
+    second: HeroPunch_42
+  - first:
+      213: 3719633951908076510
+    second: HeroPunch_43
+  - first:
+      213: 2549019750562456918
+    second: HeroPunch_44
+  - first:
+      213: 877195322381621761
+    second: HeroPunch_45
+  - first:
+      213: 7923637241615069737
+    second: HeroPunch_46
+  - first:
+      213: -2229280415576327543
+    second: HeroPunch_47
+  - first:
+      213: -8116258454501569734
+    second: HeroPunch_48
+  - first:
+      213: 2220665438548728844
+    second: HeroPunch_49
+  - first:
+      213: -7203613637409256148
+    second: HeroPunch_50
+  - first:
+      213: -9221521416343440439
+    second: HeroPunch_51
+  - first:
+      213: -3654260282709022259
+    second: HeroPunch_52
+  - first:
+      213: -4494497769608117340
+    second: HeroPunch_53
+  - first:
+      213: -315220098790857696
+    second: HeroPunch_54
+  - first:
+      213: -5112761500505588387
+    second: HeroPunch_55
+  - first:
+      213: -7213589921311858936
+    second: HeroPunch_56
+  - first:
+      213: -2570144949725816958
+    second: HeroPunch_57
+  - first:
+      213: -6382718467208091892
+    second: HeroPunch_58
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 199
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeroPunch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2478
+        width: 188
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd82a711a6cbc07f0800000000000000
+      internalID: -644933482875049763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2478
+        width: 258
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd94a2b99faf80d0800000000000000
+      internalID: -3418320517488927281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_2
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2478
+        width: 281
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6724d2191428aba30800000000000000
+      internalID: 4231838017988149878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2478
+        width: 231
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8e512170a752140800000000000000
+      internalID: 4694292357390395634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_4
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 2478
+        width: 226
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6df1a4ae0690eb0800000000000000
+      internalID: -4753161372330633545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_5
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 2478
+        width: 191
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871cb02454cfab0e0800000000000000
+      internalID: -2253211289154502280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_6
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 2478
+        width: 192
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ffdf5da38154280800000000000000
+      internalID: -9059808434408521889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_7
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 2478
+        width: 192
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac732d1b8ffa1380800000000000000
+      internalID: -8999599932392112982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_8
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 2478
+        width: 193
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b6746c4e8c17a20800000000000000
+      internalID: 3058446506865945414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_9
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 2478
+        width: 191
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9b38754aa91d5d0800000000000000
+      internalID: -3039478242864809562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_10
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 2478
+        width: 190
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7a054ab0cb1b110800000000000000
+      internalID: 1275006927709972427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_11
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 2478
+        width: 291
+        height: 564
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffe6866e41babb80800000000000000
+      internalID: -8378189206483701774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1878
+        width: 188
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af78d917d4c9504e0800000000000000
+      internalID: -2016033401745864710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_13
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1878
+        width: 192
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8104df293f640f3c0800000000000000
+      internalID: -4327881229945978856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_14
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1878
+        width: 192
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7091130d66a943420800000000000000
+      internalID: 2608879850524580103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_15
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1878
+        width: 192
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df9e67a036e988c0800000000000000
+      internalID: -3996410097672740912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_16
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1878
+        width: 190
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8301c83313d170a40800000000000000
+      internalID: 5334264380799062072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_17
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1878
+        width: 191
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f21f03906124c8c0800000000000000
+      internalID: -3980019472020860170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_18
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1878
+        width: 192
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48778f9fd97f07c80800000000000000
+      internalID: -8326883453132310652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_19
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 1878
+        width: 192
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0413f10d541a1c130800000000000000
+      internalID: 3585324099580145984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_20
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 1878
+        width: 193
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83e1a4bf05b57960800000000000000
+      internalID: 7599179025317225356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_21
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 1878
+        width: 191
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246efffb0d0b1f120800000000000000
+      internalID: 2445930483259795010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_22
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 1878
+        width: 190
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2e18744648acd30800000000000000
+      internalID: 4452516747840447211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_23
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 1878
+        width: 291
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b198e22a378905ef0800000000000000
+      internalID: -121429567529383653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1276
+        width: 188
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbe6f394436b3880800000000000000
+      internalID: -8630195114734064681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_25
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1276
+        width: 200
+        height: 557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401b6eba41f1bb580800000000000000
+      internalID: -8810414072376413948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_26
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1276
+        width: 213
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382f4591290cf1b40800000000000000
+      internalID: 5413257010845381251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_27
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1276
+        width: 225
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473d89c9c25d112f0800000000000000
+      internalID: -1003786854344371340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_28
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1276
+        width: 235
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a264635d1f162930800000000000000
+      internalID: 4118013120090497702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_29
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 1276
+        width: 247
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04897164d02a54bf0800000000000000
+      internalID: -340688018902378432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_30
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1276
+        width: 256
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1173d5241e398dd0800000000000000
+      internalID: -2483385463263235813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_31
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 1276
+        width: 265
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eadb5efed24d100800000000000000
+      internalID: 131780797475434015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_32
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 1276
+        width: 272
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea9cacc2a33e72d0800000000000000
+      internalID: -3279126704367559961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_33
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 1276
+        width: 277
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136e5efdedf146130800000000000000
+      internalID: 3559004647629121073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_34
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 1276
+        width: 280
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e808f95509723b110800000000000000
+      internalID: 1275406620341272718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_35
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 1276
+        width: 291
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a0a3aac358f0160800000000000000
+      internalID: 6993955241930132038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 205
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7212c30c52ec4ab0800000000000000
+      internalID: -5022390599597026689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 676
+        width: 283
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3298a0d6b3ded10800000000000000
+      internalID: 2156445136094569402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_38
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 676
+        width: 288
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ded29f928694740800000000000000
+      internalID: 5136751379476245916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_39
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 74
+        width: 194
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4646d0667d2a37be0800000000000000
+      internalID: -1480660806460939164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_40
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 676
+        width: 286
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6778e85f7b2fcf0800000000000000
+      internalID: -219911166501619983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_41
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 74
+        width: 192
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a704c6e768e7a0920800000000000000
+      internalID: 2957315221433892986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_42
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 676
+        width: 283
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de36245949ca09860800000000000000
+      internalID: 7534711930750133229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_43
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 74
+        width: 192
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb96fd2f5bce9330800000000000000
+      internalID: 3719633951908076510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_44
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 676
+        width: 280
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655eab535ffef5320800000000000000
+      internalID: 2549019750562456918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_45
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 76
+        width: 190
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ad0358f7c6c2c00800000000000000
+      internalID: 877195322381621761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_46
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 676
+        width: 275
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922b58b071a66fd60800000000000000
+      internalID: 7923637241615069737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_47
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 76
+        width: 191
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a76d4f5410011e0800000000000000
+      internalID: -2229280415576327543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_48
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 676
+        width: 269
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b4c2affe14d5f80800000000000000
+      internalID: -8116258454501569734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_49
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 76
+        width: 192
+        height: 506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c1fa5637361de10800000000000000
+      internalID: 2220665438548728844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_50
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 75
+        width: 192
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dcf0b209f970c90800000000000000
+      internalID: -7203613637409256148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_51
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 676
+        width: 261
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3313a2123960080800000000000000
+      internalID: -9221521416343440439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_52
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 676
+        width: 255
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc96f4c42a5794dc0800000000000000
+      internalID: -3654260282709022259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_53
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 75
+        width: 192
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a309b6671650a1c0800000000000000
+      internalID: -4494497769608117340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_54
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 75
+        width: 191
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024e1818dfc10abf0800000000000000
+      internalID: -315220098790857696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_55
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 676
+        width: 243
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d321df082db09b0800000000000000
+      internalID: -5112761500505588387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_56
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 75
+        width: 195
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f5ed09f2e24eb90800000000000000
+      internalID: -7213589921311858936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_57
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 676
+        width: 231
+        height: 507
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287145219c2055cd0800000000000000
+      internalID: -2570144949725816958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroPunch_58
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 675
+        width: 291
+        height: 508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c076cb40f570c67a0800000000000000
+      internalID: -6382718467208091892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
