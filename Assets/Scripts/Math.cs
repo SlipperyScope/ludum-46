@@ -53,5 +53,7 @@ namespace Math
                 Vector.x * Mathf.Sin(Rad) + Vector.y * Mathf.Cos(Rad)
             );
         }
+
+        public static Single DistanceTo(this Vector2 This, Vector2 Vector) => (This - Vector).magnitude;
     }
 }
