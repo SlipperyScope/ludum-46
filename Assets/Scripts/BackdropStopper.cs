@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class BackdropStopper : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (collision.isTrigger)
+        {
+            if (collision.tag == "SmallBot" || collision.tag == "MediumBot" || collision.tag == "LargeBot")
+            {
+                //play explosion if michael makes it in time
+                Destroy(collision.gameObject);
+            }
+        }
     }
 }
