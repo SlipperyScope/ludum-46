@@ -1,0 +1,1166 @@
+fileFormatVersion: 2
+guid: 9dfcfe1bba2d67e41b220db76ccc2655
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8563358526810182235
+    second: SwankKong_0
+  - first:
+      213: 1933928029620250459
+    second: SwankKong_1
+  - first:
+      213: -1849674031661025335
+    second: SwankKong_2
+  - first:
+      213: -5496589649389931945
+    second: SwankKong_3
+  - first:
+      213: 3957267555828427902
+    second: SwankKong_4
+  - first:
+      213: -6771234392968623631
+    second: SwankKong_5
+  - first:
+      213: 7133908836610308633
+    second: SwankKong_6
+  - first:
+      213: -4149951316224601872
+    second: SwankKong_7
+  - first:
+      213: 4631359997705720494
+    second: SwankKong_8
+  - first:
+      213: -881594932768582407
+    second: SwankKong_9
+  - first:
+      213: 3553207479281256037
+    second: SwankKong_10
+  - first:
+      213: -2951531292763183773
+    second: SwankKong_11
+  - first:
+      213: -7533846408799545677
+    second: SwankKong_12
+  - first:
+      213: 8297685237402720715
+    second: SwankKong_13
+  - first:
+      213: 3639497484862436579
+    second: SwankKong_14
+  - first:
+      213: -6558733971658041525
+    second: SwankKong_15
+  - first:
+      213: -8677663669119837178
+    second: SwankKong_16
+  - first:
+      213: -1624832627211793164
+    second: SwankKong_17
+  - first:
+      213: -2583106722841844128
+    second: SwankKong_18
+  - first:
+      213: 3329727607873560587
+    second: SwankKong_19
+  - first:
+      213: 8534226934638646918
+    second: SwankKong_20
+  - first:
+      213: -2987291298184641841
+    second: SwankKong_21
+  - first:
+      213: 5227747092166777131
+    second: SwankKong_22
+  - first:
+      213: -9060469582130804744
+    second: SwankKong_23
+  - first:
+      213: 6774893863559795218
+    second: SwankKong_24
+  - first:
+      213: 2123503660002684764
+    second: SwankKong_25
+  - first:
+      213: -3888674173620244725
+    second: SwankKong_26
+  - first:
+      213: -2015058516754265779
+    second: SwankKong_27
+  - first:
+      213: 5823152553844405361
+    second: SwankKong_28
+  - first:
+      213: 6445312933233638955
+    second: SwankKong_29
+  - first:
+      213: -6327243505070757593
+    second: SwankKong_30
+  - first:
+      213: -3638210894316118354
+    second: SwankKong_31
+  - first:
+      213: -181853457138920979
+    second: SwankKong_32
+  - first:
+      213: 8958143539299769361
+    second: SwankKong_33
+  - first:
+      213: 6259870237055121339
+    second: SwankKong_34
+  - first:
+      213: -9205319781702248200
+    second: SwankKong_35
+  - first:
+      213: -1752644349816675893
+    second: SwankKong_36
+  - first:
+      213: -2322831715373568043
+    second: SwankKong_37
+  - first:
+      213: 89343974965645954
+    second: SwankKong_38
+  - first:
+      213: -1589539586570080919
+    second: SwankKong_39
+  - first:
+      213: 1555501929813112319
+    second: SwankKong_40
+  - first:
+      213: 247867061262410918
+    second: SwankKong_41
+  - first:
+      213: 8629097390789117479
+    second: SwankKong_42
+  - first:
+      213: -3373007518648763120
+    second: SwankKong_43
+  - first:
+      213: 934054519948241943
+    second: SwankKong_44
+  - first:
+      213: -6202685345226313542
+    second: SwankKong_45
+  - first:
+      213: 5288954998811707284
+    second: SwankKong_46
+  - first:
+      213: -6997874198584532512
+    second: SwankKong_47
+  - first:
+      213: 3525977246292930065
+    second: SwankKong_48
+  - first:
+      213: -1391643914566882056
+    second: SwankKong_49
+  - first:
+      213: 7748542571704694285
+    second: SwankKong_50
+  - first:
+      213: -7881676605985980948
+    second: SwankKong_51
+  - first:
+      213: -5286810383148976518
+    second: SwankKong_52
+  - first:
+      213: -2155193334487061127
+    second: SwankKong_53
+  - first:
+      213: -4188029714864811801
+    second: SwankKong_54
+  - first:
+      213: -4234924464689039114
+    second: SwankKong_55
+  - first:
+      213: -652781191289297688
+    second: SwankKong_56
+  - first:
+      213: -900338269641832947
+    second: SwankKong_57
+  - first:
+      213: 1416730904740588867
+    second: SwankKong_58
+  - first:
+      213: 7978399070477421668
+    second: SwankKong_59
+  - first:
+      213: 5573883782729191590
+    second: SwankKong_60
+  - first:
+      213: -2413182081099320327
+    second: SwankKong_61
+  - first:
+      213: 4397600542492740249
+    second: SwankKong_62
+  - first:
+      213: -7043660539527488857
+    second: SwankKong_63
+  - first:
+      213: -7494265833592548762
+    second: SwankKong_64
+  - first:
+      213: -564607464307093786
+    second: SwankKong_65
+  - first:
+      213: 8036652804068553209
+    second: SwankKong_66
+  - first:
+      213: 4516303318140757147
+    second: SwankKong_67
+  - first:
+      213: -2426397871162311684
+    second: SwankKong_68
+  - first:
+      213: -5710261539211288769
+    second: SwankKong_69
+  - first:
+      213: -9217750163678769546
+    second: SwankKong_70
+  - first:
+      213: 533989732426300716
+    second: SwankKong_71
+  - first:
+      213: 8811641018231489299
+    second: SwankKong_72
+  - first:
+      213: -4112979326764448962
+    second: SwankKong_73
+  - first:
+      213: 167756316788363533
+    second: SwankKong_74
+  - first:
+      213: -2184645858704431610
+    second: SwankKong_75
+  - first:
+      213: 6550018546362050588
+    second: SwankKong_76
+  - first:
+      213: 5675158504493303330
+    second: SwankKong_77
+  - first:
+      213: -5337433196450971283
+    second: SwankKong_78
+  - first:
+      213: -5816092524884648983
+    second: SwankKong_79
+  - first:
+      213: 3114579491534777358
+    second: SwankKong_80
+  - first:
+      213: -491928930573466662
+    second: SwankKong_81
+  - first:
+      213: -7793236737517886789
+    second: SwankKong_82
+  - first:
+      213: -557940856462153178
+    second: SwankKong_83
+  - first:
+      213: 6503650423184558023
+    second: SwankKong_84
+  - first:
+      213: 2090044379105345925
+    second: SwankKong_85
+  - first:
+      213: 2031861432663880884
+    second: SwankKong_86
+  - first:
+      213: -2487099719505899642
+    second: SwankKong_87
+  - first:
+      213: 7876411282531460182
+    second: SwankKong_88
+  - first:
+      213: -8209322253684739575
+    second: SwankKong_89
+  - first:
+      213: -853644711971411702
+    second: SwankKong_90
+  - first:
+      213: 5358975479635547853
+    second: SwankKong_91
+  - first:
+      213: -7287011005728130312
+    second: SwankKong_92
+  - first:
+      213: -5457815928516297318
+    second: SwankKong_93
+  - first:
+      213: 2010809173280729023
+    second: SwankKong_94
+  - first:
+      213: -1923724493734066584
+    second: SwankKong_95
+  - first:
+      213: 8300272115545612651
+    second: SwankKong_96
+  - first:
+      213: 715560813032612092
+    second: SwankKong_97
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 199
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwankKong_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adaa2d5ac6d82980800000000000000
+      internalID: -8563358526810182235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57afaaeb41b6da10800000000000000
+      internalID: 1933928029620250459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_2
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c77498a443a456e0800000000000000
+      internalID: -1849674031661025335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_3
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752360806d038b3b0800000000000000
+      internalID: -5496589649389931945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_4
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ce45220e90be630800000000000000
+      internalID: 3957267555828427902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_5
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f98234f13eb702a0800000000000000
+      internalID: -6771234392968623631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_6
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a7d223a4cb00360800000000000000
+      internalID: 7133908836610308633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_7
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f09449e3496866c0800000000000000
+      internalID: -4149951316224601872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_8
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea214324165e54040800000000000000
+      internalID: 4631359997705720494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_9
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f45b8c5412f3c3f0800000000000000
+      internalID: -881594932768582407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_10
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 1611
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56602df60678f4130800000000000000
+      internalID: 3553207479281256037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365a6675ded0a07d0800000000000000
+      internalID: -2951531292763183773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b696237b96627790800000000000000
+      internalID: -7533846408799545677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_13
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc95469a2cc472370800000000000000
+      internalID: 8297685237402720715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_14
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4372afda7128230800000000000000
+      internalID: 3639497484862436579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_15
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b471903d332baf4a0800000000000000
+      internalID: -6558733971658041525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_16
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c9cc18edeb29780800000000000000
+      internalID: -8677663669119837178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_17
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc8393955f6379e0800000000000000
+      internalID: -1624832627211793164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_18
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066a6181f16f62cd0800000000000000
+      internalID: -2583106722841844128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_19
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b006d122e91953e20800000000000000
+      internalID: 3329727607873560587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_20
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68615b74e2aaf6670800000000000000
+      internalID: 8534226934638646918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_21
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 1134
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2c61344620b86d0800000000000000
+      internalID: -2987291298184641841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b299e245840bc8840800000000000000
+      internalID: 5227747092166777131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_23
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f78cd26beeb24280800000000000000
+      internalID: -9060469582130804744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_24
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2129470f212450e50800000000000000
+      internalID: 6774893863559795218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_25
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fa3b5f353387d10800000000000000
+      internalID: 2123503660002684764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_26
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f21223177a80ac0800000000000000
+      internalID: -3888674173620244725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_27
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d498c3b84f21904e0800000000000000
+      internalID: -2015058516754265779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_28
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174fdc4356effc050800000000000000
+      internalID: 5823152553844405361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_29
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e3f9bc6f9527950800000000000000
+      internalID: 6445312933233638955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_30
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7292cd82e8d1138a0800000000000000
+      internalID: -6327243505070757593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_31
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaed45ab77a728dc0800000000000000
+      internalID: -3638210894316118354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_32
+      rect:
+        serializedVersion: 2
+        x: 3670
+        y: 657
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1de068e3de97df0800000000000000
+      internalID: -181853457138920979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c5ce23618b15c70800000000000000
+      internalID: 8958143539299769361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_34
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 180
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7f5bb70d68fd650800000000000000
+      internalID: 6259870237055121339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankKong_35
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 180
+        width: 327
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8d2cf2e62204080800000000000000
+      internalID: -9205319781702248200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
