@@ -9,6 +9,7 @@ public class HeroMovement : MonoBehaviour
     public float punchRange = 1.5f;
     public float punchForce = 100;
     public bool punchEnabled = true;
+    public bool teleportEnabled = true;
     public bool canMove;
     private float rightAxis;
     private float upAxis;
@@ -39,6 +40,11 @@ public class HeroMovement : MonoBehaviour
             {
                 //set animation trigger
                 this.Punch();
+            }
+
+            if (teleportEnabled && Input.GetKeyDown(KeyCode.Space))
+            {
+                this.TeleportToSwanky();
             }
         }
     }
@@ -86,5 +92,19 @@ public class HeroMovement : MonoBehaviour
         punchEnabled = false;
         yield return new WaitForSeconds(2);
         punchEnabled = true;
+    }
+
+    void TeleportToSwanky()
+    {
+        var swanky = GameObject.FindGameObjectWithTag("SwankyMcDancepants");
+        gameObject.transform.position = swanky.transform.position;
+        StartCoroutine(DisableTeleport());
+    }
+
+    IEnumerator DisableTeleport()
+    {
+        teleportEnabled = false;
+        yield return new WaitForSeconds(30);
+        teleportEnabled = true;
     }
 }
