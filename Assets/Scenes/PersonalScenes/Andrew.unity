@@ -202,6 +202,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwankyMcDancepants
       objectReference: {fileID: 0}
+    - target: {fileID: 3360706863713197341, guid: 79e71d19a0226ea4a8ce6d23ff7e096f,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3360706863713197342, guid: 79e71d19a0226ea4a8ce6d23ff7e096f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,6 +320,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79e71d19a0226ea4a8ce6d23ff7e096f, type: 3}
+--- !u!1001 &1879466050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1129235739021024284, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651770648319870658, guid: 9baf60663cf6ca24cb5028e9d40b0f98,
+        type: 3}
+      propertyPath: m_Name
+      value: SmallBotTest
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9baf60663cf6ca24cb5028e9d40b0f98, type: 3}
 --- !u!1001 &1946893104
 PrefabInstance:
   m_ObjectHideFlags: 0
