@@ -48,11 +48,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sadSprite: {fileID: 0}
-  moveSpeed: 2
-  thrust: 0.5
+  moveSpeed: 4
   punchRange: 1.5
   punchForce: 100
-  canMove: 1
+  punchEnabled: 1
+  canMove: 0
 --- !u!61 &3785076098046609281
 BoxCollider2D:
   m_ObjectHideFlags: 0
