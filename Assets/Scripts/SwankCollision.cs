@@ -5,9 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SwankCollision : MonoBehaviour
 {
-    public int ScoreNeededToKillMediumBot = 1500;
-
+    private int ScoreNeededToKillMediumBot;
     private int Score;
+
+    public void Start()
+    {
+        ScoreNeededToKillMediumBot = GameObject.FindGameObjectWithTag("BotSpawner").GetComponent<BotSpawner>().ScoreNeededToKillMediumBot;
+    }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.isTrigger)
@@ -21,7 +26,6 @@ public class SwankCollision : MonoBehaviour
         Score = GameObject.FindGameObjectWithTag("SwankyMcDancepants").GetComponent<PlayerStat>().getScore();
 
         if (collision.gameObject.CompareTag("SmallBot")) this.KillBot(collision);
-
         if (collision.gameObject.CompareTag("MediumBot"))
         {
             if (this.ifSwankKillsMediumBot())
@@ -30,7 +34,6 @@ public class SwankCollision : MonoBehaviour
             }
             else { this.killSwank(); }
         }
-
         if (collision.gameObject.CompareTag("LargeBot")) this.killSwank();
     }
     
@@ -49,7 +52,6 @@ public class SwankCollision : MonoBehaviour
 
     public bool ifSwankKillsMediumBot()
     {
-        Debug.Log($"Score{Score}, ScoreNeededToKillMediumBot {ScoreNeededToKillMediumBot}, condition {Score > ScoreNeededToKillMediumBot}");
         if(Score > ScoreNeededToKillMediumBot)
         {
             return true;

@@ -342,6 +342,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79e71d19a0226ea4a8ce6d23ff7e096f, type: 3}
+--- !u!1 &694993501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3785076098046609282, guid: e7693983f3f953948915fbba0fcc812e,
+    type: 3}
+  m_PrefabInstance: {fileID: 29315646}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &694993502
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694993501}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c999b3d8a06f1bf4386423503149148e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &889685626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -660,4 +685,3 @@ MonoBehaviour:
     type: 3}
   radiusForAnchorSpawns: 4
   spawnDelay: 0.5
-  botLevel: 1

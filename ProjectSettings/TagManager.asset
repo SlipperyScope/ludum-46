@@ -9,6 +9,7 @@ TagManager:
   - SmallBot
   - MediumBot
   - LargeBot
+  - BotSpawner
   layers:
   - Default
   - TransparentFX

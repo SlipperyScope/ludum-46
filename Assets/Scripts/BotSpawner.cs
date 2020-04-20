@@ -8,15 +8,20 @@ public class BotSpawner : MonoBehaviour
     private int currentBots = 0;
     public GameObject botPreFab;
 
-    public float radiusForAnchorSpawns = 4.0f;
+    
     public float spawnDelay = .5f;
     private int[] enemiesChance = {100,0,0};
 
+    public int ScoreNeededToKillMediumBot = 2000;
+    public float BaseBotSpeed = 1f;
+    public int[] botMass = { 30, 60, 100 };
+    public int[] BotPointValues = { 50,150,200 };
 
     private Vector3 center = Vector3.zero;
     private Vector3 anchoirPoint;
     private float killDistance;
     private float radiusForSpawningEnemies;
+    private float radiusForAnchorSpawns = 4.0f;
 
     void Start()
     {
@@ -49,9 +54,13 @@ public class BotSpawner : MonoBehaviour
         Vector3 botSpawnPoint = RandomPointOnCircleDiameter(center, radiusForSpawningEnemies);
         this.getAnchorPoint(center, radiusForAnchorSpawns);
         GameObject bot = Instantiate(botPreFab, botSpawnPoint, Quaternion.identity);
-        bot.GetComponent<Bot>().anchoirPoint = anchoirPoint;
-        bot.GetComponent<Bot>().killDistance = killDistance;
-        bot.GetComponent<Bot>().botLevel = this.PickBotLevel();
+
+        bot.GetComponent<Bot>().setAnchoirPoint(anchoirPoint);
+        bot.GetComponent<Bot>().setDeathDistance(killDistance);
+        bot.GetComponent<Bot>().setBotLevel(this.GetBotLevel());
+        bot.GetComponent<Bot>().SetBotSpeed(BaseBotSpeed);
+        bot.GetComponent<Bot>().setBotMass(botMass);
+        bot.GetComponent<Bot>().setBotPointValues(BotPointValues);
     }
 
     void getAnchorPoint(Vector3 center, float radius)
@@ -69,7 +78,7 @@ public class BotSpawner : MonoBehaviour
         return pos;
     }
 
-    int PickBotLevel()
+    int GetBotLevel()
     {
         int random = Random.Range(0, 100);
         int lowLim;

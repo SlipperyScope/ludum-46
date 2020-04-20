@@ -48,4 +48,7 @@ MonoBehaviour:
     type: 3}
   radiusForAnchorSpawns: 5
   spawnDelay: 1
-  botLevel: 1
+  ScoreNeededToKillMediumBot: 2000
+  BaseBotSpeed: 1
+  botMass: 1e0000003c00000064000000
+  BotPointValues: 3200000096000000c8000000
