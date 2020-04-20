@@ -43,7 +43,6 @@ public class HeroMovement : MonoBehaviour
 
             if (punchEnabled && Input.GetMouseButtonDown(0))
             {
-                //set animation trigger
                 this.Punch();
             }
 
