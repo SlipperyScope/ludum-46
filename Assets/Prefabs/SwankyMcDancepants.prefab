@@ -276,7 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxTasksPerTick: 500
-  behavior: {fileID: 11400000, guid: 511854132cf804d47b6464b0a68d984a, type: 2}
+  behavior: {fileID: 11400000, guid: f2404a859ea23ea45b689e9ae22e2bb6, type: 2}
   paused: 0
   restartWhenFinished: 0
   blackboard:
@@ -287,11 +287,15 @@ MonoBehaviour:
     boolParamsNames: []
     boolParamsLostDefaultValue: 
     floatParams:
+    - 0.5
     - 0.5625
     - 1
+    - 4
     floatParamsNames:
     - Threshold
     - YRatio
+    - PerceptionDistance
+    - DanceTime
     floatParamsLostDefaultValue: 
     stringParams: []
     stringParamsNames: []

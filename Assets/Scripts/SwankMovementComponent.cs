@@ -26,7 +26,7 @@ public class SwankMovementComponent : MonoBehaviour
 
         if (Mathf.Abs(direction.x) > 0)
         {
-            SwankySprite.flipX = direction.x < 0;
+            SwankySprite.flipX = direction.x > 0;
         }
 
         position += direction * MoveSpeed * Time.deltaTime;
