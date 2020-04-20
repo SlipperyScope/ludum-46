@@ -6,6 +6,9 @@ TagManager:
   tags:
   - bot
   - SwankyMcDancepants
+  - SmallBot
+  - MediumBot
+  - LargeBot
   layers:
   - Default
   - TransparentFX

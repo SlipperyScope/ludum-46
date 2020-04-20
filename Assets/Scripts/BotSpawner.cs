@@ -102,6 +102,4 @@ public class BotSpawner : MonoBehaviour
     {
         return (numberToCheck >= bottom && numberToCheck < top);
     }
-
-
 }
