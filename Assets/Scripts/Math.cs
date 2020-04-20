@@ -55,5 +55,7 @@ namespace Math
         }
 
         public static Single DistanceTo(this Vector2 This, Vector2 Vector) => (This - Vector).magnitude;
+
+        public static Boolean Between(this Single This, Single Lower, Single Higher) => This >= Lower && This < Higher;
     }
 }
