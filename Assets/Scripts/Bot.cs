@@ -65,7 +65,7 @@ public class Bot : MonoBehaviour
     }
     private void MoveBot()
     {
-        float step = speed[botLevel-1] * botLevel * Time.deltaTime;
+        float step = speed[botLevel-1] * Time.deltaTime;
         transform.position += moveDirection * step;
     }
 
