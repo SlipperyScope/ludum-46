@@ -38,13 +38,13 @@ public class BotSpawner : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(spawnEnemies());
-
         Camera camera = Camera.main;
         float halfHeight = camera.orthographicSize;
         float halfWidth = camera.aspect * halfHeight;
         radiusForSpawningEnemies = halfWidth + 5f;
         killDistance = radiusForSpawningEnemies + .01f;
+
+        StartCoroutine(spawnEnemies());
     }
 
     void Update()
