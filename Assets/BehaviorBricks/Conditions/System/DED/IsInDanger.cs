@@ -25,22 +25,14 @@ namespace BBCore.Conditions
 
         public override bool Check()
         {
-            var Bots = GameObject.FindGameObjectsWithTag("bot").ToList();
+            var Bots = GameObject.FindGameObjectsWithTag("SmallBot").ToList();
+            Bots.Concat(GameObject.FindGameObjectsWithTag("MediumBot").ToList());
+            Bots.Concat(GameObject.FindGameObjectsWithTag("LargeBot").ToList());
+
             var Nearby = Bots.Where(b => Distance(Entity, b) <= PerceptionDistance);
 
-            //Debug.Log($"There are {Nearby.Count()} bots nearby");
+            var HasNearby = Nearby.Count() > 0;
 
-            //foreach (var Bot in Nearby)
-            //{
-            //    if (Bot.IsBad)
-            //    {
-            //        return Invert == false ? true : false;
-            //    }
-            //}
-
-            //return Invert == false ? false : true;
-
-            var HasNearby = Nearby.Count()  > 0;
 
             if (Invert == false)
             {

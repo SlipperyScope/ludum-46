@@ -11,10 +11,12 @@ public class HeroMovement : MonoBehaviour
     public bool punchEnabled = true;
     public bool teleportEnabled = true;
     public bool canMove;
+
     private float rightAxis;
     private float upAxis;
     private Vector2 velocity;
     private AudioSource horn;
+    private Animator sadAnimator;
 
 
     protected void Awake()
@@ -24,6 +26,7 @@ public class HeroMovement : MonoBehaviour
 
     private void Start()
     {
+        sadAnimator = gameObject.GetComponentInChildren<Animator>();
         sadSprite = gameObject.GetComponentInChildren<SpriteRenderer>();
         horn = gameObject.GetComponentInChildren<AudioSource>();
         canMove = true;
@@ -59,6 +62,19 @@ public class HeroMovement : MonoBehaviour
     private void UpdateMove()
     {
         Vector2 direction = new Vector2(rightAxis, upAxis);
+        if (!sadAnimator.IsInTransition(0))
+        {
+            var animatorState = sadAnimator.GetCurrentAnimatorStateInfo(0);
+            var walking = animatorState.IsName("HeroWalk");
+            var moving = direction.magnitude > 0;
+            if (!walking && moving)
+            {
+                sadAnimator.SetTrigger("Walk");
+            } else if (walking && !moving)
+            {
+                sadAnimator.SetTrigger("Idle");
+            }
+        }
 
         if (Mathf.Abs(rightAxis) > 0)
         {
