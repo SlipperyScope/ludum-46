@@ -36,11 +36,16 @@ public class SwankCollision : MonoBehaviour
 
     void KillBot(Collider2D collision)
     {
+        this.ChangeSwankScale(new Vector3(.01f, .01f, 0));
         int pointValue = collision.gameObject.GetComponent<Bot>().GetPointValue();
         GameObject.FindGameObjectWithTag("SwankyMcDancepants").GetComponent<PlayerStat>().AdjustScore(pointValue);
         Destroy(collision.gameObject);
     }
 
+    private void ChangeSwankScale(Vector3 delta)
+    {
+        transform.localScale += delta;
+    }
 }
 
 
