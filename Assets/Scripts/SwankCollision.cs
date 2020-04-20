@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SwankCollision : MonoBehaviour
 {
@@ -30,8 +31,7 @@ public class SwankCollision : MonoBehaviour
     
     void killSwank()
     {
-        // Handle ending game here
-        Destroy(gameObject);
+        SceneManager.LoadScene("Gameover");
     }
 
     void KillBot(Collider2D collision)
