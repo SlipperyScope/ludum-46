@@ -14,9 +14,22 @@ public class BotSpawner : MonoBehaviour
     private int[] enemiesChance = {100,0,0};
 
     public int ScoreNeededToKillMediumBot = 2000;
-    public float BaseBotSpeed = 1f;
     public int[] botMass = { 30, 60, 100 };
-    public int[] BotPointValues = { 50,150,200 };
+    public float[] botSpeed = { 1, 2, 3 };
+    public int[] BotPointValues = { 50, 150, 200 };
+
+    //{FromLowPoint,ToHighPointVal,smallChancetoSpawn,MedChanceTospawn,HighChancetoSpawn}
+    //[# of diffrent dificulty settings, leave as 5]
+    private int[,] SpawnProb = new int[6, 5]
+    {
+        {0, 500, 100, 0, 0 },
+        {500, 1000, 80, 20, 5 },
+        {1000, 1500, 50, 50, 15 },
+        {1500, 2000, 40, 60, 30 },
+        {2000, 2500, 20, 50, 50 },
+        {2500, 3000, 10, 50, 60 }
+    };
+
 
     private Vector3 center = Vector3.zero;
     private Vector3 anchoirPoint;
@@ -54,7 +67,7 @@ public class BotSpawner : MonoBehaviour
 
     void SpawnBot()
     {
-        this.SetEnemyChance();
+        this.setEnemiesChance();
         Vector3 botSpawnPoint = RandomPointOnCircleDiameter(center, radiusForSpawningEnemies);
         this.getAnchorPoint(center, radiusForAnchorSpawns);
         GameObject bot = Instantiate(botPreFab, botSpawnPoint, Quaternion.identity);
@@ -62,7 +75,7 @@ public class BotSpawner : MonoBehaviour
         bot.GetComponent<Bot>().setAnchoirPoint(anchoirPoint);
         bot.GetComponent<Bot>().setDeathDistance(killDistance);
         bot.GetComponent<Bot>().setBotLevel(this.GetBotLevel());
-        bot.GetComponent<Bot>().SetBotSpeed(BaseBotSpeed);
+        bot.GetComponent<Bot>().SetBotSpeed(botSpeed);
         bot.GetComponent<Bot>().setBotMass(botMass);
         bot.GetComponent<Bot>().setBotPointValues(BotPointValues);
     }
@@ -99,17 +112,14 @@ public class BotSpawner : MonoBehaviour
         return Random.Range(1,enemiesChance.Length+1);
     }
 
-    private void SetEnemyChance()
+    private void setEnemiesChance()
     {
         int Score = GameObject.FindGameObjectWithTag("SwankyMcDancepants").GetComponent<PlayerStat>().getScore();
-        if (this.IsBetween(Score, 0, 500)) enemiesChance= new int[] { 100, 0, 0 };
-        if (this.IsBetween(Score, 500, 1000)) enemiesChance = new int[] { 80, 20, 5 };
-        if (this.IsBetween(Score, 1000, 1500)) enemiesChance = new int[] { 50, 50, 15 };
-        if (this.IsBetween(Score, 1500, 2000)) enemiesChance = new int[] { 40, 60, 30 };
-        if (this.IsBetween(Score, 2000, 2500)) enemiesChance = new int[] { 20, 50, 50 };
-        if (this.IsBetween(Score, 2000, 3000)) enemiesChance = new int[] { 10, 50, 60 };
-
-    } 
+        for (int i = 0; i < SpawnProb.GetLength(0); i++)
+        {
+            if (this.IsBetween(Score, SpawnProb[i,0], SpawnProb[i, 1])) enemiesChance = new int[] { SpawnProb[i, 2], SpawnProb[i, 3], SpawnProb[i, 4] };
+        }
+    }
 
     private bool IsBetween(int numberToCheck, int bottom, int top)
     {
