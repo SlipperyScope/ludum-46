@@ -87,6 +87,8 @@ public class HeroMovement : MonoBehaviour
 
     void Punch()
     {
+        sadAnimator.SetTrigger("Punch");
+        sadAnimator.SetTrigger("Idle");
         var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 rot = Quaternion.LookRotation(transform.position - mousePos, Vector3.forward) * Vector2.up;
 
