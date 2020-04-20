@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8148896025769515751}
   m_Layer: 0
   m_Name: BotSpawner
-  m_TagString: Untagged
+  m_TagString: BotSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,6 @@ MonoBehaviour:
   maxBots: 25
   botPreFab: {fileID: 5020175174638884605, guid: 221d57cd28e938a4681a3ae3a927ef88,
     type: 3}
-  radiusForAnchorSpawns: 5
   spawnDelay: 1
   ScoreNeededToKillMediumBot: 2000
   BaseBotSpeed: 1

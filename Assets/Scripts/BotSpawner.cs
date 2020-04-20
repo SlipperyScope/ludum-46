@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class BotSpawner : MonoBehaviour
 {
-    public int maxBots = 100;
+    public int maxBots = 1;
     private int currentBots = 0;
     public GameObject botPreFab;
 
@@ -49,7 +50,10 @@ public class BotSpawner : MonoBehaviour
 
     void Update()
     {
-        currentBots = GameObject.FindGameObjectsWithTag("bot").Length;
+        var SmallBots = GameObject.FindGameObjectsWithTag("SmallBot").Length;
+        var MediumBots = GameObject.FindGameObjectsWithTag("MediumBot").Length;
+        var LargeBots = GameObject.FindGameObjectsWithTag("LargeBot").Length;
+        currentBots = SmallBots + MediumBots + LargeBots;
     }
 
     IEnumerator spawnEnemies()

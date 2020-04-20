@@ -43,7 +43,6 @@ public class HeroMovement : MonoBehaviour
 
             if (punchEnabled && Input.GetMouseButtonDown(0))
             {
-                //set animation trigger
                 this.Punch();
             }
 
@@ -62,9 +61,9 @@ public class HeroMovement : MonoBehaviour
     private void UpdateMove()
     {
         Vector2 direction = new Vector2(rightAxis, upAxis);
-        if (!sadAnimator.IsInTransition(0))
+        var animatorState = sadAnimator.GetCurrentAnimatorStateInfo(0);
+        if (!sadAnimator.IsInTransition(0) && !animatorState.IsName("HeroPunch"))
         {
-            var animatorState = sadAnimator.GetCurrentAnimatorStateInfo(0);
             var walking = animatorState.IsName("HeroWalk");
             var moving = direction.magnitude > 0;
             if (!walking && moving)
@@ -87,6 +86,7 @@ public class HeroMovement : MonoBehaviour
 
     void Punch()
     {
+        sadAnimator.SetTrigger("Punch");
         var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 rot = Quaternion.LookRotation(transform.position - mousePos, Vector3.forward) * Vector2.up;
 
@@ -113,8 +113,10 @@ public class HeroMovement : MonoBehaviour
     IEnumerator DisablePunch()
     {
         punchEnabled = false;
+        //canMove = false;
         yield return new WaitForSeconds(2);
         punchEnabled = true;
+        canMove = true;
     }
 
     void TeleportToSwanky()
