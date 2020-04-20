@@ -63,7 +63,7 @@ MonoBehaviour:
     />\r\n        </elem>\r\n        <elem>\r\n          <ActionNode id=\"11\" />\r\n       
     </elem>\r\n      </children>\r\n      <inputParams />\r\n      <outputParams
     />\r\n      <localParams />\r\n    </SequenceNode>\r\n    <ConditionEvalNode
-    id=\"13\" policy=\"WAIT_UNTIL_TRUE_AND_COMPLETE\" name=\"DED/DestinationClose\">\r\n     
+    id=\"13\" policy=\"WAIT_UNTIL_FALSE_AND_FAIL\" name=\"DED/DestinationClose\">\r\n     
     <inputParams>\r\n        <inputValues>\r\n          <entry name=\"Entity\" type=\"UnityEngine.GameObject\"
     isBlackboard=\"True\" blackboard=\"Entity\" />\r\n          <entry name=\"Destination\"
     type=\"UnityEngine.Vector2\" isBlackboard=\"True\" blackboard=\"Destination\"
