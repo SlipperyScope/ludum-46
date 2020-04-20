@@ -45,7 +45,7 @@ public class Bot : MonoBehaviour
         this.ControlBotDeath();
     }
 
-    public float GetPointValue()
+    public int GetPointValue()
     {
         return pointValue;
     }
@@ -71,21 +71,25 @@ public class Bot : MonoBehaviour
                 spriteR.sprite = firstLevelSprite;
                 SmallBotCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 SmallBotFeetCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                transform.gameObject.tag = "SmallBot";
                 break;
             case 2:
                 spriteR.sprite = secondLevelSprite;
                 MediumBotCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 MediumBotFeetCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                transform.gameObject.tag = "MediumBot";
                 break;
             case 3:
                 spriteR.sprite = thirdLevelSprite;
                 LargeBotCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 LargeBotFeetCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                transform.gameObject.tag = "LargeBot";
                 break;
             default:
                 spriteR.sprite = firstLevelSprite;
                 SmallBotCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
                 SmallBotFeetCollider.ApplyTo(gameObject.AddComponent<PolygonCollider2D>());
+                transform.gameObject.tag = "SmallBot";
                 break;
         }
     }
@@ -101,7 +105,5 @@ public class Bot : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
-        // TODO: Handle collision with swank
     }
 }

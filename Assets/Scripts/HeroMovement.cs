@@ -9,10 +9,12 @@ public class HeroMovement : MonoBehaviour
     public float punchRange = 1.5f;
     public float punchForce = 100;
     public bool punchEnabled = true;
+    public bool teleportEnabled = true;
     public bool canMove;
     private float rightAxis;
     private float upAxis;
     private Vector2 velocity;
+    private AudioSource horn;
 
 
     protected void Awake()
@@ -23,6 +25,7 @@ public class HeroMovement : MonoBehaviour
     private void Start()
     {
         sadSprite = gameObject.GetComponentInChildren<SpriteRenderer>();
+        horn = gameObject.GetComponentInChildren<AudioSource>();
         canMove = true;
     }
 
@@ -39,6 +42,16 @@ public class HeroMovement : MonoBehaviour
             {
                 //set animation trigger
                 this.Punch();
+            }
+
+            if (teleportEnabled && Input.GetKeyDown(KeyCode.Space))
+            {
+                this.TeleportToSwanky();
+            }
+
+            if (Input.GetKeyDown(KeyCode.H))
+            {
+                this.PlayHorn();
             }
         }
     }
@@ -62,17 +75,20 @@ public class HeroMovement : MonoBehaviour
         Vector2 rot = Quaternion.LookRotation(transform.position - mousePos, Vector3.forward) * Vector2.up;
 
         var hits = new HashSet<RaycastHit2D>();
-        foreach (var hit in Physics2D.RaycastAll(transform.position, rot, punchRange))
+        foreach (var offset in new[] { transform.right * 0f, transform.right * .25f, transform.up * .25f })
         {
-            if (hit.transform != transform)
+            foreach (var hit in Physics2D.RaycastAll(transform.position + offset, rot, punchRange))
             {
-                var rb = hit.transform.gameObject.GetComponent<Rigidbody2D>();
-                if (rb)
+                if (hit.transform != transform)
                 {
-                    rb.AddForce(new Vector2(rot.x, rot.y) * punchForce, ForceMode2D.Impulse);
-                }
-                    hits.Add(hit);
-                }
+                    var rb = hit.transform.gameObject.GetComponent<Rigidbody2D>();
+                    if (rb)
+                    {
+                        rb.AddForce(new Vector2(rot.x, rot.y) * punchForce, ForceMode2D.Impulse);
+                    }
+                        hits.Add(hit);
+                    }
+            }
         }
 
         StartCoroutine(DisablePunch());
@@ -83,5 +99,24 @@ public class HeroMovement : MonoBehaviour
         punchEnabled = false;
         yield return new WaitForSeconds(2);
         punchEnabled = true;
+    }
+
+    void TeleportToSwanky()
+    {
+        var swanky = GameObject.FindGameObjectWithTag("SwankyMcDancepants");
+        gameObject.transform.position = swanky.transform.position;
+        StartCoroutine(DisableTeleport());
+    }
+
+    IEnumerator DisableTeleport()
+    {
+        teleportEnabled = false;
+        yield return new WaitForSeconds(30);
+        teleportEnabled = true;
+    }
+
+    void PlayHorn()
+    {
+        horn.Play();
     }
 }

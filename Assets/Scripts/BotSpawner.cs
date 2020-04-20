@@ -10,7 +10,7 @@ public class BotSpawner : MonoBehaviour
 
     public float radiusForAnchorSpawns = 4.0f;
     public float spawnDelay = .5f;
-    public int botLevel = 1;
+    private int[] enemiesChance = {100,0,0};
 
 
     private Vector3 center = Vector3.zero;
@@ -32,8 +32,6 @@ public class BotSpawner : MonoBehaviour
     void Update()
     {
         currentBots = GameObject.FindGameObjectsWithTag("bot").Length;
-        //TODO: get current score and use it in the calculation for bot level
-        var score = GameObject.FindGameObjectWithTag("SwankyMcDancepants").GetComponent<PlayerStat>().getScore();
     }
 
     IEnumerator spawnEnemies()
@@ -47,12 +45,13 @@ public class BotSpawner : MonoBehaviour
 
     void SpawnBot()
     {
+        this.SetEnemyChance();
         Vector3 botSpawnPoint = RandomPointOnCircleDiameter(center, radiusForSpawningEnemies);
         this.getAnchorPoint(center, radiusForAnchorSpawns);
         GameObject bot = Instantiate(botPreFab, botSpawnPoint, Quaternion.identity);
         bot.GetComponent<Bot>().anchoirPoint = anchoirPoint;
         bot.GetComponent<Bot>().killDistance = killDistance;
-        bot.GetComponent<Bot>().botLevel = botLevel;
+        bot.GetComponent<Bot>().botLevel = this.PickBotLevel();
     }
 
     void getAnchorPoint(Vector3 center, float radius)
@@ -70,5 +69,37 @@ public class BotSpawner : MonoBehaviour
         return pos;
     }
 
+    int PickBotLevel()
+    {
+        int random = Random.Range(0, 100);
+        int lowLim;
+        int hiLim = 0;
+        for (int i = 0; i < enemiesChance.Length; i++)
+        {
+            lowLim = hiLim;
+            hiLim += enemiesChance[i];
+            if (random >= lowLim && random < hiLim)
+            {
+                return i + 1;
+            }
+        }
+        return Random.Range(1,enemiesChance.Length+1);
+    }
 
+    private void SetEnemyChance()
+    {
+        int Score = GameObject.FindGameObjectWithTag("SwankyMcDancepants").GetComponent<PlayerStat>().getScore();
+        if (this.IsBetween(Score, 0, 500)) enemiesChance= new int[] { 100, 0, 0 };
+        if (this.IsBetween(Score, 500, 1000)) enemiesChance = new int[] { 80, 20, 5 };
+        if (this.IsBetween(Score, 1000, 1500)) enemiesChance = new int[] { 50, 50, 15 };
+        if (this.IsBetween(Score, 1500, 2000)) enemiesChance = new int[] { 40, 60, 30 };
+        if (this.IsBetween(Score, 2000, 2500)) enemiesChance = new int[] { 20, 50, 50 };
+        if (this.IsBetween(Score, 2000, 3000)) enemiesChance = new int[] { 10, 50, 60 };
+
+    } 
+
+    private bool IsBetween(int numberToCheck, int bottom, int top)
+    {
+        return (numberToCheck >= bottom && numberToCheck < top);
+    }
 }

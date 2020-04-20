@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PersonalScenes/Adam.unity
+    guid: 93026f07f19c36b4581f28c8f23c2956
+  - enabled: 1
+    path: Assets/Scenes/Gameover.unity
+    guid: 2fe95fdd9420fc042a85d4910ff1a06c
   m_configObjects: {}
