@@ -11,7 +11,8 @@ public class BackdropStopper : MonoBehaviour
             if (collision.tag == "SmallBot" || collision.tag == "MediumBot" || collision.tag == "LargeBot")
             {
                 //play explosion if michael makes it in time
-                Destroy(collision.gameObject);
+                collision.gameObject.GetComponent<Bot>().ExplodeAndDie();
+                //Destroy(collision.gameObject);
             }
         }
     }
