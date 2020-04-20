@@ -257,12 +257,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Behavior: {fileID: 7327064233115194979}
-  PlayArea:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
 --- !u!114 &7327064233115194979
 MonoBehaviour:
   m_ObjectHideFlags: 0

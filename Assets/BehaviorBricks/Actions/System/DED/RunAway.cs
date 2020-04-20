@@ -8,6 +8,7 @@ using Pada1.BBCore;
 using UnityEngine;
 using TaskStatus = Pada1.BBCore.Tasks.TaskStatus;
 using Random = UnityEngine.Random;
+using Math;
 
 namespace BBUnity.Actions
 {
@@ -40,9 +41,12 @@ namespace BBUnity.Actions
                 return TaskStatus.COMPLETED;
             }
 
+            var Rotation = Random.Range(-60, 60);
             var Closest = Nearby.First();
             var Direction = ((Vector2)Entity.transform.position - (Vector2)Closest.transform.position).normalized;
-            var Destination = (Vector2)Entity.transform.position + (Direction * (1.1f * PerceptionDistance + Threshold));
+            var Destination = (Vector2)Entity.transform.position + (Direction.Rotate(Rotation) * (PerceptionDistance + Threshold));
+
+            //Debug.DrawLine(Entity.transform.position, Destination, new Color(255, 0, 255), 2);
 
             if (SwankMove != null)
             {
@@ -61,5 +65,12 @@ namespace BBUnity.Actions
         }
 
         private Single Distance(GameObject A, GameObject B) => (A.transform.position - B.transform.position).magnitude;
+        public static Vector2 rotate(Vector2 v, float delta)
+        {
+            return new Vector2(
+                v.x * Mathf.Cos(delta) - v.y * Mathf.Sin(delta),
+                v.x * Mathf.Sin(delta) + v.y * Mathf.Cos(delta)
+            );
+        }
     }
 }
