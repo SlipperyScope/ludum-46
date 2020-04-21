@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 199082}
+  m_AnchoredPosition: {x: 0, y: 199072.89}
   m_SizeDelta: {x: 1522.6938, y: 398.7598}
   m_Pivot: {x: 0.5, y: 500}
 --- !u!114 &71222441
@@ -189,9 +189,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.66
-  m_Text: Help Sad Boy keep baddies away from Swank by using LEFT CLICK to deflect
-    them! Swank can eat the small robots to get bigger, allowing him to defeat larger
-    enemies. But some kill him instantly!
+  m_Text: Help Sad Boy keep large bots and ghost-bots away from Swank by using LEFT
+    CLICK to deflect them! Swank can eat the small robots to get bigger, allowing
+    him to defeat larger enemies. But some kill him instantly!
 --- !u!222 &71222442
 CanvasRenderer:
   m_ObjectHideFlags: 0

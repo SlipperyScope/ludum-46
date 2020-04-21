@@ -421,7 +421,7 @@ PrefabInstance:
     - target: {fileID: 3353087324431700821, guid: bdac038424deb3d46a35d5a361bc1ed0,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 220.9
+      value: 178.85
       objectReference: {fileID: 0}
     - target: {fileID: 3353087324431700821, guid: bdac038424deb3d46a35d5a361bc1ed0,
         type: 3}
@@ -1223,8 +1223,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 199133.1}
-  m_SizeDelta: {x: 1522.6938, y: 398.7598}
+  m_AnchoredPosition: {x: 0, y: 199123.23}
+  m_SizeDelta: {x: 1347.333, y: 398.7598}
   m_Pivot: {x: 0.5, y: 500}
 --- !u!114 &1615522284
 MonoBehaviour:
@@ -1257,7 +1257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.66
-  m_Text: 'PRO TIP: Next time, help Sad Boy keep baddies away from Swank by using
+  m_Text: 'PRO TIP: Next time, help Sad Boy keep big bots away from Swank by using
     LEFT CLICK to deflect them!'
 --- !u!222 &1615522285
 CanvasRenderer:
