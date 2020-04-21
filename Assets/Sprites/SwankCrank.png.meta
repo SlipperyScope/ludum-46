@@ -1,0 +1,1970 @@
+fileFormatVersion: 2
+guid: 26a2a45e6f3419b46afdd2b9a2edbaa1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8855500035752173538
+    second: SwankCrank_0
+  - first:
+      213: 4154139789385440180
+    second: SwankCrank_1
+  - first:
+      213: 7605360102942548312
+    second: SwankCrank_2
+  - first:
+      213: -4313058013905105892
+    second: SwankCrank_3
+  - first:
+      213: -2961586044277089102
+    second: SwankCrank_4
+  - first:
+      213: -1638093271638152999
+    second: SwankCrank_5
+  - first:
+      213: 5741531597444152436
+    second: SwankCrank_6
+  - first:
+      213: -5849459215362341103
+    second: SwankCrank_7
+  - first:
+      213: 8281912117899003756
+    second: SwankCrank_8
+  - first:
+      213: -2733670472386727938
+    second: SwankCrank_9
+  - first:
+      213: 4057107757678339728
+    second: SwankCrank_10
+  - first:
+      213: -7200537729898860015
+    second: SwankCrank_11
+  - first:
+      213: 2888600059009390227
+    second: SwankCrank_12
+  - first:
+      213: -6827648885693644535
+    second: SwankCrank_13
+  - first:
+      213: -3677230000062689767
+    second: SwankCrank_14
+  - first:
+      213: -8582782151707263689
+    second: SwankCrank_15
+  - first:
+      213: -119033907665230430
+    second: SwankCrank_16
+  - first:
+      213: 6190980488730138054
+    second: SwankCrank_17
+  - first:
+      213: -6473304027253459924
+    second: SwankCrank_18
+  - first:
+      213: -1312689579953987779
+    second: SwankCrank_19
+  - first:
+      213: 1512659479094084132
+    second: SwankCrank_20
+  - first:
+      213: -6451269834084544782
+    second: SwankCrank_21
+  - first:
+      213: -3780444128068611134
+    second: SwankCrank_22
+  - first:
+      213: -7343607673113003219
+    second: SwankCrank_23
+  - first:
+      213: 8027747860449023814
+    second: SwankCrank_24
+  - first:
+      213: -1836870950127929975
+    second: SwankCrank_25
+  - first:
+      213: -6471193540541916866
+    second: SwankCrank_26
+  - first:
+      213: 210625679428354727
+    second: SwankCrank_27
+  - first:
+      213: 7118461375742378671
+    second: SwankCrank_28
+  - first:
+      213: -1872586852423552129
+    second: SwankCrank_29
+  - first:
+      213: 2890161004563473311
+    second: SwankCrank_30
+  - first:
+      213: -2796378179606343994
+    second: SwankCrank_31
+  - first:
+      213: -5534447810932462288
+    second: SwankCrank_32
+  - first:
+      213: 8054741743050049341
+    second: SwankCrank_33
+  - first:
+      213: 3185600644907672442
+    second: SwankCrank_34
+  - first:
+      213: -6496321169914736140
+    second: SwankCrank_35
+  - first:
+      213: -7809336375973815217
+    second: SwankCrank_36
+  - first:
+      213: -1721280915752896883
+    second: SwankCrank_37
+  - first:
+      213: -6455514307683020225
+    second: SwankCrank_38
+  - first:
+      213: 2465463501731526159
+    second: SwankCrank_39
+  - first:
+      213: -5881982467104100463
+    second: SwankCrank_40
+  - first:
+      213: -2077191971097141750
+    second: SwankCrank_41
+  - first:
+      213: 795710581514656075
+    second: SwankCrank_42
+  - first:
+      213: -1938505640430595732
+    second: SwankCrank_43
+  - first:
+      213: -769399759722715766
+    second: SwankCrank_44
+  - first:
+      213: -5377717215564316636
+    second: SwankCrank_45
+  - first:
+      213: 8165296522591019892
+    second: SwankCrank_46
+  - first:
+      213: 6877052671600881871
+    second: SwankCrank_47
+  - first:
+      213: -5376484835670416219
+    second: SwankCrank_48
+  - first:
+      213: 7523766845811635823
+    second: SwankCrank_49
+  - first:
+      213: -2334084598667890723
+    second: SwankCrank_50
+  - first:
+      213: 1144506064314428355
+    second: SwankCrank_51
+  - first:
+      213: -3287359053682146489
+    second: SwankCrank_52
+  - first:
+      213: -1384780157415225267
+    second: SwankCrank_53
+  - first:
+      213: -7264868138428932357
+    second: SwankCrank_54
+  - first:
+      213: 8883487958938160562
+    second: SwankCrank_55
+  - first:
+      213: 2430885521042339321
+    second: SwankCrank_56
+  - first:
+      213: -8221913046874244040
+    second: SwankCrank_57
+  - first:
+      213: 1400560035521131413
+    second: SwankCrank_58
+  - first:
+      213: -8973299748573128957
+    second: SwankCrank_59
+  - first:
+      213: -8695481784186780525
+    second: SwankCrank_60
+  - first:
+      213: 7445152507033517686
+    second: SwankCrank_61
+  - first:
+      213: -4508584625257212353
+    second: SwankCrank_62
+  - first:
+      213: -2206349739666274462
+    second: SwankCrank_63
+  - first:
+      213: -8181196997749560913
+    second: SwankCrank_64
+  - first:
+      213: 1192954652231405084
+    second: SwankCrank_65
+  - first:
+      213: -7353071061834587319
+    second: SwankCrank_66
+  - first:
+      213: 6720781019604881121
+    second: SwankCrank_67
+  - first:
+      213: -1792123681222476549
+    second: SwankCrank_68
+  - first:
+      213: 7632282826992910146
+    second: SwankCrank_69
+  - first:
+      213: -541792757152477583
+    second: SwankCrank_70
+  - first:
+      213: 4944909990959793884
+    second: SwankCrank_71
+  - first:
+      213: -3053213657581127955
+    second: SwankCrank_72
+  - first:
+      213: 6114112762354949169
+    second: SwankCrank_73
+  - first:
+      213: -8088120691383535169
+    second: SwankCrank_74
+  - first:
+      213: -5161084005731654727
+    second: SwankCrank_75
+  - first:
+      213: 3641552938696408083
+    second: SwankCrank_76
+  - first:
+      213: 6283848157277159227
+    second: SwankCrank_77
+  - first:
+      213: -986215673354257546
+    second: SwankCrank_78
+  - first:
+      213: 1257048705982487183
+    second: SwankCrank_79
+  - first:
+      213: 4233721934973661307
+    second: SwankCrank_80
+  - first:
+      213: -8318319643037488155
+    second: SwankCrank_81
+  - first:
+      213: -164559440874871402
+    second: SwankCrank_82
+  - first:
+      213: 339083361533703449
+    second: SwankCrank_83
+  - first:
+      213: 7804441914063265941
+    second: SwankCrank_84
+  - first:
+      213: -3000704879388908935
+    second: SwankCrank_85
+  - first:
+      213: -5408048924805404515
+    second: SwankCrank_86
+  - first:
+      213: 3461980844318915985
+    second: SwankCrank_87
+  - first:
+      213: 3903539521414889480
+    second: SwankCrank_88
+  - first:
+      213: 2671851775108582445
+    second: SwankCrank_89
+  - first:
+      213: 3753057598977686478
+    second: SwankCrank_90
+  - first:
+      213: -552206539409378664
+    second: SwankCrank_91
+  - first:
+      213: -4001512294152815663
+    second: SwankCrank_92
+  - first:
+      213: 7307795717222209477
+    second: SwankCrank_93
+  - first:
+      213: -4287307887471827276
+    second: SwankCrank_94
+  - first:
+      213: 1186027633181467707
+    second: SwankCrank_95
+  - first:
+      213: 4066771896975692931
+    second: SwankCrank_96
+  - first:
+      213: 1853911965039535975
+    second: SwankCrank_97
+  - first:
+      213: 8288296800661866674
+    second: SwankCrank_98
+  - first:
+      213: -1067548862232973016
+    second: SwankCrank_99
+  - first:
+      213: 178266447289682939
+    second: SwankCrank_100
+  - first:
+      213: 5809356562135278406
+    second: SwankCrank_101
+  - first:
+      213: -4512416891731513125
+    second: SwankCrank_102
+  - first:
+      213: 5916267660926710247
+    second: SwankCrank_103
+  - first:
+      213: -2822294662201811100
+    second: SwankCrank_104
+  - first:
+      213: -3565097715170714942
+    second: SwankCrank_105
+  - first:
+      213: 399197023655632811
+    second: SwankCrank_106
+  - first:
+      213: 5919236168027796231
+    second: SwankCrank_107
+  - first:
+      213: 1016518849598876278
+    second: SwankCrank_108
+  - first:
+      213: -1765231459744895383
+    second: SwankCrank_109
+  - first:
+      213: -9203756847799310140
+    second: SwankCrank_110
+  - first:
+      213: -4794820729622000787
+    second: SwankCrank_111
+  - first:
+      213: 2828169374317150635
+    second: SwankCrank_112
+  - first:
+      213: -2312681398541725880
+    second: SwankCrank_113
+  - first:
+      213: 6928971594231183352
+    second: SwankCrank_114
+  - first:
+      213: 4181701315576501502
+    second: SwankCrank_115
+  - first:
+      213: -9140526680663627786
+    second: SwankCrank_116
+  - first:
+      213: 4168377520318784377
+    second: SwankCrank_117
+  - first:
+      213: -7415651408301490987
+    second: SwankCrank_118
+  - first:
+      213: 8907574395933710495
+    second: SwankCrank_119
+  - first:
+      213: -4244160072336929237
+    second: SwankCrank_120
+  - first:
+      213: 9049870032704537983
+    second: SwankCrank_121
+  - first:
+      213: 6566437504317246438
+    second: SwankCrank_122
+  - first:
+      213: -3334001356589142763
+    second: SwankCrank_123
+  - first:
+      213: 3281834185879532747
+    second: SwankCrank_124
+  - first:
+      213: 7703311574609771566
+    second: SwankCrank_125
+  - first:
+      213: 2032961142635818799
+    second: SwankCrank_126
+  - first:
+      213: -8636852106998197084
+    second: SwankCrank_127
+  - first:
+      213: -8464661991340990600
+    second: SwankCrank_128
+  - first:
+      213: 3833046178592654376
+    second: SwankCrank_129
+  - first:
+      213: 75768857555155633
+    second: SwankCrank_130
+  - first:
+      213: -3174872527760318310
+    second: SwankCrank_131
+  - first:
+      213: 2207389768323804611
+    second: SwankCrank_132
+  - first:
+      213: -3196716508167714164
+    second: SwankCrank_133
+  - first:
+      213: -8373007709908048697
+    second: SwankCrank_134
+  - first:
+      213: -440936501271749896
+    second: SwankCrank_135
+  - first:
+      213: 871571675482235019
+    second: SwankCrank_136
+  - first:
+      213: -6063628163575144404
+    second: SwankCrank_137
+  - first:
+      213: 903542621275188480
+    second: SwankCrank_138
+  - first:
+      213: 1996836256715893712
+    second: SwankCrank_139
+  - first:
+      213: -7924377080704158442
+    second: SwankCrank_140
+  - first:
+      213: -1860465861073839172
+    second: SwankCrank_141
+  - first:
+      213: -6703180526694145296
+    second: SwankCrank_142
+  - first:
+      213: -3368238095024785128
+    second: SwankCrank_143
+  - first:
+      213: -8229023396287770221
+    second: SwankCrank_144
+  - first:
+      213: 4730289196472708686
+    second: SwankCrank_145
+  - first:
+      213: 884264436676448891
+    second: SwankCrank_146
+  - first:
+      213: 6701616301608378747
+    second: SwankCrank_147
+  - first:
+      213: 4197037191502497752
+    second: SwankCrank_148
+  - first:
+      213: -4032118375138882212
+    second: SwankCrank_149
+  - first:
+      213: 3039367046162497766
+    second: SwankCrank_150
+  - first:
+      213: -7952624282543546763
+    second: SwankCrank_151
+  - first:
+      213: -9034248377339585765
+    second: SwankCrank_152
+  - first:
+      213: 6393863914581763595
+    second: SwankCrank_153
+  - first:
+      213: -4308051146886644261
+    second: SwankCrank_154
+  - first:
+      213: 870535121413392075
+    second: SwankCrank_155
+  - first:
+      213: 304021023549603539
+    second: SwankCrank_156
+  - first:
+      213: 5892164646353575953
+    second: SwankCrank_157
+  - first:
+      213: 9127769082080485907
+    second: SwankCrank_158
+  - first:
+      213: 3460560948107242840
+    second: SwankCrank_159
+  - first:
+      213: -8220218394871623485
+    second: SwankCrank_160
+  - first:
+      213: -354351800716220172
+    second: SwankCrank_161
+  - first:
+      213: 1079287776301522066
+    second: SwankCrank_162
+  - first:
+      213: -6860255685200008627
+    second: SwankCrank_163
+  - first:
+      213: -4891998567672415358
+    second: SwankCrank_164
+  - first:
+      213: -2639387736972285806
+    second: SwankCrank_165
+  - first:
+      213: -2465087672061812087
+    second: SwankCrank_166
+  - first:
+      213: 1924537149531896949
+    second: SwankCrank_167
+  - first:
+      213: -6135448142326725546
+    second: SwankCrank_168
+  - first:
+      213: 2483138680133697913
+    second: SwankCrank_169
+  - first:
+      213: 1781347011987666934
+    second: SwankCrank_170
+  - first:
+      213: 8425006290704855503
+    second: SwankCrank_171
+  - first:
+      213: 7609987363481062449
+    second: SwankCrank_172
+  - first:
+      213: -2454816238886769406
+    second: SwankCrank_173
+  - first:
+      213: 8616779148829140214
+    second: SwankCrank_174
+  - first:
+      213: 4163228199951456811
+    second: SwankCrank_175
+  - first:
+      213: 908930792113685914
+    second: SwankCrank_176
+  - first:
+      213: -5748968951110599957
+    second: SwankCrank_177
+  - first:
+      213: -6808294747314380990
+    second: SwankCrank_178
+  - first:
+      213: 5504069841521622801
+    second: SwankCrank_179
+  - first:
+      213: 943582774853219423
+    second: SwankCrank_180
+  - first:
+      213: 4613762162707373525
+    second: SwankCrank_181
+  - first:
+      213: 6457268648097852553
+    second: SwankCrank_182
+  - first:
+      213: 6878122620720408570
+    second: SwankCrank_183
+  - first:
+      213: -7851385208585796701
+    second: SwankCrank_184
+  - first:
+      213: -2047161536401673102
+    second: SwankCrank_185
+  - first:
+      213: -8912204879454990597
+    second: SwankCrank_186
+  - first:
+      213: 8016045165544457938
+    second: SwankCrank_187
+  - first:
+      213: 5154640902437650382
+    second: SwankCrank_188
+  - first:
+      213: 2386520744158692575
+    second: SwankCrank_189
+  - first:
+      213: 3322816911960039761
+    second: SwankCrank_190
+  - first:
+      213: -7508640505880738519
+    second: SwankCrank_191
+  - first:
+      213: -2407638637941235790
+    second: SwankCrank_192
+  - first:
+      213: -8636274551000964043
+    second: SwankCrank_193
+  - first:
+      213: 4293725224078332547
+    second: SwankCrank_194
+  - first:
+      213: 3817831087194986980
+    second: SwankCrank_195
+  - first:
+      213: -5864129447270336954
+    second: SwankCrank_196
+  - first:
+      213: 1751011829054057794
+    second: SwankCrank_197
+  - first:
+      213: -5416829430337755849
+    second: SwankCrank_198
+  - first:
+      213: -5484977208494778401
+    second: SwankCrank_199
+  - first:
+      213: -7043406112340834809
+    second: SwankCrank_200
+  - first:
+      213: -3665453620327257234
+    second: SwankCrank_201
+  - first:
+      213: 5734414471850292983
+    second: SwankCrank_202
+  - first:
+      213: 4197363660005961869
+    second: SwankCrank_203
+  - first:
+      213: -4527786523290288086
+    second: SwankCrank_204
+  - first:
+      213: -4389717706637509868
+    second: SwankCrank_205
+  - first:
+      213: -8748409836956947094
+    second: SwankCrank_206
+  - first:
+      213: 6424156424636531655
+    second: SwankCrank_207
+  - first:
+      213: -2672085043016741663
+    second: SwankCrank_208
+  - first:
+      213: -8641354710356161974
+    second: SwankCrank_209
+  - first:
+      213: 8628961806351612454
+    second: SwankCrank_210
+  - first:
+      213: 8005786076491251684
+    second: SwankCrank_211
+  - first:
+      213: 8123776942786584188
+    second: SwankCrank_212
+  - first:
+      213: 3663786473401995528
+    second: SwankCrank_213
+  - first:
+      213: -1761996618348750202
+    second: SwankCrank_214
+  - first:
+      213: 138628963198329346
+    second: SwankCrank_215
+  - first:
+      213: -5616177359953174830
+    second: SwankCrank_216
+  - first:
+      213: 1824909866589023976
+    second: SwankCrank_217
+  - first:
+      213: -6062360208074223292
+    second: SwankCrank_218
+  - first:
+      213: -1543527167043462406
+    second: SwankCrank_219
+  - first:
+      213: -875098491370475575
+    second: SwankCrank_220
+  - first:
+      213: -3827756827685069543
+    second: SwankCrank_221
+  - first:
+      213: -4446356664587704407
+    second: SwankCrank_222
+  - first:
+      213: 5779067713477693786
+    second: SwankCrank_223
+  - first:
+      213: 8702208543834413460
+    second: SwankCrank_224
+  - first:
+      213: -3940789211999074553
+    second: SwankCrank_225
+  - first:
+      213: 682225938078886563
+    second: SwankCrank_226
+  - first:
+      213: -105643948996596912
+    second: SwankCrank_227
+  - first:
+      213: -9083544344032424831
+    second: SwankCrank_228
+  - first:
+      213: -1317499213261158496
+    second: SwankCrank_229
+  - first:
+      213: -5133804208595402002
+    second: SwankCrank_230
+  - first:
+      213: 4511339496932838905
+    second: SwankCrank_231
+  - first:
+      213: 5456929006230785104
+    second: SwankCrank_232
+  - first:
+      213: -6525647636015440228
+    second: SwankCrank_233
+  - first:
+      213: -5996770987134692658
+    second: SwankCrank_234
+  - first:
+      213: -1522623447488359036
+    second: SwankCrank_235
+  - first:
+      213: 7685718719684143375
+    second: SwankCrank_236
+  - first:
+      213: -6284200070870567915
+    second: SwankCrank_237
+  - first:
+      213: 1011286138946158525
+    second: SwankCrank_238
+  - first:
+      213: 5804641396285353456
+    second: SwankCrank_239
+  - first:
+      213: 6310476271163335852
+    second: SwankCrank_240
+  - first:
+      213: 9179672025465710620
+    second: SwankCrank_241
+  - first:
+      213: -1716127630639467706
+    second: SwankCrank_242
+  - first:
+      213: -5453393649053917764
+    second: SwankCrank_243
+  - first:
+      213: 5798870952929066318
+    second: SwankCrank_244
+  - first:
+      213: 3597733894120396414
+    second: SwankCrank_245
+  - first:
+      213: 1718490049355075412
+    second: SwankCrank_246
+  - first:
+      213: 7981769137081382790
+    second: SwankCrank_247
+  - first:
+      213: -1324571378953507181
+    second: SwankCrank_248
+  - first:
+      213: 8636868024698841883
+    second: SwankCrank_249
+  - first:
+      213: -2247238752074790375
+    second: SwankCrank_250
+  - first:
+      213: -4118308127593931643
+    second: SwankCrank_251
+  - first:
+      213: -8540894803972512286
+    second: SwankCrank_252
+  - first:
+      213: 5470497137290267373
+    second: SwankCrank_253
+  - first:
+      213: 7683175543608990364
+    second: SwankCrank_254
+  - first:
+      213: 7398902496024812618
+    second: SwankCrank_255
+  - first:
+      213: -2722147239571847559
+    second: SwankCrank_256
+  - first:
+      213: -1054503258850440430
+    second: SwankCrank_257
+  - first:
+      213: -7454429241878924220
+    second: SwankCrank_258
+  - first:
+      213: -2691046488891598620
+    second: SwankCrank_259
+  - first:
+      213: 852467989778538578
+    second: SwankCrank_260
+  - first:
+      213: -8243056981841848783
+    second: SwankCrank_261
+  - first:
+      213: -5814335385249352526
+    second: SwankCrank_262
+  - first:
+      213: 2592230929237961796
+    second: SwankCrank_263
+  - first:
+      213: 5385106767039241943
+    second: SwankCrank_264
+  - first:
+      213: -6937104115563722190
+    second: SwankCrank_265
+  - first:
+      213: 4556536733651706583
+    second: SwankCrank_266
+  - first:
+      213: -5856475101558106998
+    second: SwankCrank_267
+  - first:
+      213: -6475784808987842
+    second: SwankCrank_268
+  - first:
+      213: 4449693926865794953
+    second: SwankCrank_269
+  - first:
+      213: 7868994224637214748
+    second: SwankCrank_270
+  - first:
+      213: 5636346286689105388
+    second: SwankCrank_271
+  - first:
+      213: 9208705101939215034
+    second: SwankCrank_272
+  - first:
+      213: -8633817011118901023
+    second: SwankCrank_273
+  - first:
+      213: -6115749555108785444
+    second: SwankCrank_274
+  - first:
+      213: -4620272268391680096
+    second: SwankCrank_275
+  - first:
+      213: -2407623288068991626
+    second: SwankCrank_276
+  - first:
+      213: 5701439363852707650
+    second: SwankCrank_277
+  - first:
+      213: 5023019431016897823
+    second: SwankCrank_278
+  - first:
+      213: 399095375534981796
+    second: SwankCrank_279
+  - first:
+      213: 5564652341920168594
+    second: SwankCrank_280
+  - first:
+      213: -4625923129825321364
+    second: SwankCrank_281
+  - first:
+      213: 9095853733323191877
+    second: SwankCrank_282
+  - first:
+      213: -8371611475376603057
+    second: SwankCrank_283
+  - first:
+      213: -6788188487172234355
+    second: SwankCrank_284
+  - first:
+      213: -7739119242294746197
+    second: SwankCrank_285
+  - first:
+      213: 3092086173655818971
+    second: SwankCrank_286
+  - first:
+      213: -7026021860500715536
+    second: SwankCrank_287
+  - first:
+      213: 7103394996369352406
+    second: SwankCrank_288
+  - first:
+      213: -4437669070866273467
+    second: SwankCrank_289
+  - first:
+      213: -2575289180459069203
+    second: SwankCrank_290
+  - first:
+      213: -1413252131516834879
+    second: SwankCrank_291
+  - first:
+      213: 9131729391240420551
+    second: SwankCrank_292
+  - first:
+      213: 4684248277258212288
+    second: SwankCrank_293
+  - first:
+      213: 2572550494707296955
+    second: SwankCrank_294
+  - first:
+      213: 5827313757591814112
+    second: SwankCrank_295
+  - first:
+      213: 144807565513459389
+    second: SwankCrank_296
+  - first:
+      213: 1345684832057657047
+    second: SwankCrank_297
+  - first:
+      213: -5377295460326957589
+    second: SwankCrank_298
+  - first:
+      213: 9006703172937560376
+    second: SwankCrank_299
+  - first:
+      213: -4725631613447347647
+    second: SwankCrank_300
+  - first:
+      213: -6933130605211843524
+    second: SwankCrank_301
+  - first:
+      213: 1839485501598209677
+    second: SwankCrank_302
+  - first:
+      213: 709911056469851199
+    second: SwankCrank_303
+  - first:
+      213: 1876872213300666184
+    second: SwankCrank_304
+  - first:
+      213: -2235238648814701537
+    second: SwankCrank_305
+  - first:
+      213: -498416425329905986
+    second: SwankCrank_306
+  - first:
+      213: 5659850870043166663
+    second: SwankCrank_307
+  - first:
+      213: 1650274925535016070
+    second: SwankCrank_308
+  - first:
+      213: -2826210124339925677
+    second: SwankCrank_309
+  - first:
+      213: -8416451650101563175
+    second: SwankCrank_310
+  - first:
+      213: -1998438247538940961
+    second: SwankCrank_311
+  - first:
+      213: -4561602643903371269
+    second: SwankCrank_312
+  - first:
+      213: 4853732569824619225
+    second: SwankCrank_313
+  - first:
+      213: 7901468252099600458
+    second: SwankCrank_314
+  - first:
+      213: -5746087848088017728
+    second: SwankCrank_315
+  - first:
+      213: -5267689540168309727
+    second: SwankCrank_316
+  - first:
+      213: -73952486503977558
+    second: SwankCrank_317
+  - first:
+      213: -6406189695166158298
+    second: SwankCrank_318
+  - first:
+      213: -6592336416821414595
+    second: SwankCrank_319
+  - first:
+      213: 863682681522157547
+    second: SwankCrank_320
+  - first:
+      213: -4696981537396569648
+    second: SwankCrank_321
+  - first:
+      213: 5795434504615256209
+    second: SwankCrank_322
+  - first:
+      213: 4188875696278643070
+    second: SwankCrank_323
+  - first:
+      213: 5954043714140252714
+    second: SwankCrank_324
+  - first:
+      213: 5099499335568718826
+    second: SwankCrank_325
+  - first:
+      213: 1994804229735787287
+    second: SwankCrank_326
+  - first:
+      213: 8675260697982384690
+    second: SwankCrank_327
+  - first:
+      213: -7337636712900343408
+    second: SwankCrank_328
+  - first:
+      213: 2060970227572708179
+    second: SwankCrank_329
+  - first:
+      213: 3580776693209093256
+    second: SwankCrank_0
+  - first:
+      213: -1282872666802296868
+    second: SwankCrank_1
+  - first:
+      213: 7075592737313591206
+    second: SwankCrank_2
+  - first:
+      213: 3039549441164839318
+    second: SwankCrank_3
+  - first:
+      213: -7551731167862043237
+    second: SwankCrank_4
+  - first:
+      213: 5404167023653711722
+    second: SwankCrank_5
+  - first:
+      213: 2466478421286518813
+    second: SwankCrank_6
+  - first:
+      213: -7014809578472778573
+    second: SwankCrank_7
+  - first:
+      213: -7640461403335843397
+    second: SwankCrank_8
+  - first:
+      213: 7932069876626318956
+    second: SwankCrank_9
+  - first:
+      213: -3445486799141970885
+    second: SwankCrank_10
+  - first:
+      213: 4943426053455983069
+    second: SwankCrank_11
+  - first:
+      213: 3250419535464445076
+    second: SwankCrank_12
+  - first:
+      213: 5745330871055213204
+    second: SwankCrank_13
+  - first:
+      213: -1963334969424748682
+    second: SwankCrank_14
+  - first:
+      213: -2362026902547387910
+    second: SwankCrank_15
+  - first:
+      213: 2797132286713917309
+    second: SwankCrank_16
+  - first:
+      213: 4682638690186919300
+    second: SwankCrank_17
+  - first:
+      213: -6205722480086896281
+    second: SwankCrank_18
+  - first:
+      213: 8157365451083749623
+    second: SwankCrank_19
+  - first:
+      213: -1554047532726976450
+    second: SwankCrank_20
+  - first:
+      213: -6708668907066125023
+    second: SwankCrank_21
+  - first:
+      213: -6716431372576210545
+    second: SwankCrank_22
+  - first:
+      213: 6531092899450046217
+    second: SwankCrank_23
+  - first:
+      213: -6598153630871231927
+    second: SwankCrank_24
+  - first:
+      213: 7315783657482394091
+    second: SwankCrank_25
+  - first:
+      213: 8896046743341595877
+    second: SwankCrank_26
+  - first:
+      213: -4208101082445295264
+    second: SwankCrank_27
+  - first:
+      213: 7532618285362611766
+    second: SwankCrank_28
+  - first:
+      213: 4029078331742747590
+    second: SwankCrank_29
+  - first:
+      213: -4035629550666418177
+    second: SwankCrank_30
+  - first:
+      213: 4073712520967185532
+    second: SwankCrank_31
+  - first:
+      213: 5072026638705014279
+    second: SwankCrank_32
+  - first:
+      213: -4089371002498257093
+    second: SwankCrank_33
+  - first:
+      213: 4717503745206802929
+    second: SwankCrank_34
+  - first:
+      213: 1353968229623865303
+    second: SwankCrank_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 199
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwankCrank_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884d9b24e6971b130800000000000000
+      internalID: 3580776693209093256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7e0334b12523ee0800000000000000
+      internalID: -1282872666802296868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_2
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af09e24b1e813260800000000000000
+      internalID: 7075592737313591206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_3
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6990eddcc16ae2a20800000000000000
+      internalID: 3039549441164839318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_4
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d465c738cd23790800000000000000
+      internalID: -7551731167862043237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_5
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f62c786457ffa40800000000000000
+      internalID: 5404167023653711722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_6
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1003f26e01ba3220800000000000000
+      internalID: 2466478421286518813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_7
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b45f1cbad366ae90800000000000000
+      internalID: -7014809578472778573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_8
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1a516a5d0a7f590800000000000000
+      internalID: -7640461403335843397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_9
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 1644
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6663e1e68f541e60800000000000000
+      internalID: 7932069876626318956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c58dad20c2f20d0800000000000000
+      internalID: -3445486799141970885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_11
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1b7a1edc39a9440800000000000000
+      internalID: 4943426053455983069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_12
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4943956985fcb1d20800000000000000
+      internalID: 3250419535464445076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_13
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492e456bcf38bbf40800000000000000
+      internalID: 5745330871055213204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_14
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fd55c5f35d0c4e0800000000000000
+      internalID: -1963334969424748682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_15
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af92fb3fb05683fd0800000000000000
+      internalID: -2362026902547387910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_16
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7feb53bef861d620800000000000000
+      internalID: 2797132286713917309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_17
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d771c34131cf040800000000000000
+      internalID: 4682638690186919300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_18
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761b3cf9848d0e9a0800000000000000
+      internalID: -6205722480086896281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_19
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 1200
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f814ee78a8c43170800000000000000
+      internalID: 8157365451083749623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e308cbfa00aee6ae0800000000000000
+      internalID: -1554047532726976450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_21
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1259d9e4c2506e2a0800000000000000
+      internalID: -6708668907066125023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_22
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f814e4770417ac2a0800000000000000
+      internalID: -6716431372576210545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_23
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907cbca836a13aa50800000000000000
+      internalID: 6531092899450046217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_24
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94267723b36ae64a0800000000000000
+      internalID: -6598153630871231927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_25
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be998ddc972e68560800000000000000
+      internalID: 7315783657482394091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_26
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec752a316b157b70800000000000000
+      internalID: 8896046743341595877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_27
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06159e96c52d995c0800000000000000
+      internalID: -4208101082445295264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_28
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63686a7cb6c398860800000000000000
+      internalID: 7532618285362611766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_29
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 756
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbffbf45692ae730800000000000000
+      internalID: 4029078331742747590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7757b2e409ef7c0800000000000000
+      internalID: -4035629550666418177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_31
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 312
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c746f4154fbb88830800000000000000
+      internalID: 4073712520967185532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_32
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 312
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706b45bea55736640800000000000000
+      internalID: 5072026638705014279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_33
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 312
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fee495db2af37c0800000000000000
+      internalID: -4089371002498257093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_34
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 312
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f950af69a0f77140800000000000000
+      internalID: 4717503745206802929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwankCrank_35
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 312
+        width: 349
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df15e36ee24ac210800000000000000
+      internalID: 1353968229623865303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
