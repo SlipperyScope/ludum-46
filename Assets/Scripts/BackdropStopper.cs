@@ -11,7 +11,7 @@ public class BackdropStopper : MonoBehaviour
             if (collision.tag == "SmallBot" || collision.tag == "MediumBot" || collision.tag == "LargeBot")
             {
                 var y = this.gameObject.GetComponent<BoxCollider2D>().bounds.min.y;
-                if (collision.transform.position.y > y)
+                if (collision.bounds.min.y > y)
                 {
                     Destroy(collision.gameObject);
                 } else
