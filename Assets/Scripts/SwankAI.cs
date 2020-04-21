@@ -9,7 +9,8 @@ using Random = UnityEngine.Random;
 public enum Dances
 {
     Sway,
-    Kong
+    Kong,
+    Crank
 }
 
 public class SwankAI : MonoBehaviour
@@ -22,7 +23,8 @@ public class SwankAI : MonoBehaviour
     public static Dictionary<Dances, String> DanceLookup = new Dictionary<Dances, String>
     {
         {Dances.Sway, "Sway" },
-        {Dances.Kong, "Kong" }
+        {Dances.Kong, "Kong" },
+        {Dances.Crank, "Crank" }
     };
 
     //public Rect PlayArea;
