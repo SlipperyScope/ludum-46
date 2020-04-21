@@ -107,9 +107,9 @@ public class HeroMovement : MonoBehaviour
         Vector2 rot = Quaternion.LookRotation(transform.position - mousePos, Vector3.forward) * Vector2.up;
 
         var hits = new HashSet<RaycastHit2D>();
-        foreach (var offset in new[] { transform.right * 0f, transform.right * .25f, transform.up * .25f })
+        foreach (var offset in new[] { transform.right * 0f, transform.right * .5f, transform.up * .8f })
         {
-            foreach (var hit in Physics2D.RaycastAll(transform.position + offset, rot, punchRange))
+            foreach (var hit in Physics2D.RaycastAll((Vector3)((Vector2)transform.position + new Vector2(0, -1)) + offset, rot, punchRange))
             {
                 if (hit.transform != transform)
                 {
