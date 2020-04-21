@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class HeroMovement : MonoBehaviour
@@ -17,6 +18,7 @@ public class HeroMovement : MonoBehaviour
     private Vector2 velocity;
     private AudioSource chomp;
     private Animator sadAnimator;
+    private AudioSource HornySource;
 
 
     protected void Awake()
@@ -28,8 +30,26 @@ public class HeroMovement : MonoBehaviour
     {
         sadAnimator = gameObject.GetComponentInChildren<Animator>();
         sadSprite = gameObject.GetComponentInChildren<SpriteRenderer>();
-        chomp = gameObject.GetComponentInChildren<AudioSource>();
+        SetupAudioSources();
         canMove = true;
+    }
+
+    private void SetupAudioSources()
+    {
+        var Sources = gameObject.GetComponentsInChildren<AudioSource>();
+        foreach (var Source in Sources)
+        {
+            Debug.Log(Source.clip.name);
+            if (Source.clip.name == "HornSound")
+            {
+                HornySource = Source;
+            }
+
+            if (Source.clip.name == "chomp")
+            {
+                chomp = Source;
+            }
+        }
     }
 
     // Update is called once per frame
@@ -52,10 +72,10 @@ public class HeroMovement : MonoBehaviour
                 this.TeleportToSwanky();
             }
 
-            //if (Input.GetKeyDown(KeyCode.H))
-            //{
-            //    this.PlayHorn();
-            //}
+            if (Input.GetKeyDown(KeyCode.H))
+            {
+                HornySource.Play();
+            }
         }
     }
 
