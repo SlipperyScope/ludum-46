@@ -15,13 +15,4 @@ public class GameOver : MonoBehaviour
         scoreText.text = "" + ps.getScore();
         Destroy(ps.gameObject);
     }
-
-    private void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            //TODO: Change this to whatever the main scene is
-            SceneManager.LoadScene("Adam");
-        }
-    }
 }

@@ -107,8 +107,7 @@ public class Bot : MonoBehaviour
     {
         if(Vector3.Distance(Vector3.zero,transform.position) > killDistance)
         {
-            //Destroy(gameObject);
-            this.ExplodeAndDie();
+            Destroy(gameObject);
         }
     }
 }

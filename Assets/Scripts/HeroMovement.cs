@@ -15,7 +15,7 @@ public class HeroMovement : MonoBehaviour
     private float rightAxis;
     private float upAxis;
     private Vector2 velocity;
-    private AudioSource horn;
+    private AudioSource chomp;
     private Animator sadAnimator;
 
 
@@ -28,7 +28,7 @@ public class HeroMovement : MonoBehaviour
     {
         sadAnimator = gameObject.GetComponentInChildren<Animator>();
         sadSprite = gameObject.GetComponentInChildren<SpriteRenderer>();
-        horn = gameObject.GetComponentInChildren<AudioSource>();
+        chomp = gameObject.GetComponentInChildren<AudioSource>();
         canMove = true;
     }
 
@@ -44,6 +44,7 @@ public class HeroMovement : MonoBehaviour
             if (punchEnabled && Input.GetMouseButtonDown(0))
             {
                 this.Punch();
+                this.PlayChomp();
             }
 
             if (teleportEnabled && Input.GetKeyDown(KeyCode.Space))
@@ -51,10 +52,10 @@ public class HeroMovement : MonoBehaviour
                 this.TeleportToSwanky();
             }
 
-            if (Input.GetKeyDown(KeyCode.H))
-            {
-                this.PlayHorn();
-            }
+            //if (Input.GetKeyDown(KeyCode.H))
+            //{
+            //    this.PlayHorn();
+            //}
         }
     }
 
@@ -132,9 +133,8 @@ public class HeroMovement : MonoBehaviour
         yield return new WaitForSeconds(30);
         teleportEnabled = true;
     }
-
-    void PlayHorn()
+    void PlayChomp()
     {
-        horn.Play();
+        chomp.Play();
     }
 }
